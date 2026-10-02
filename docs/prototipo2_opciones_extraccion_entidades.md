@@ -175,18 +175,6 @@ Por qué esta opción:
 
 ---
 
-## 5. Preguntas abiertas para el sinodal
-
-1. **Tipología de entidades.** ¿Se fija un conjunto cerrado de tipos (como en la Sección 1.2) o se permite que el sistema proponga tipos (*schema-free*, como sugiere el protocolo al hablar de "sin depender de esquemas rígidos")? Esto define cómo se anota y cómo se mide F1.
-2. **¿"Concepto" es una entidad?** ¿Los conceptos clave se evalúan junto con las entidades nombradas o con una métrica aparte, propia de extracción de frases clave?
-3. **Conjunto de evaluación.** ¿Cuántos documentos y de qué dominios? ¿Se acepta una sola persona anotadora o hace falta medir el acuerdo entre anotadores (κ de Cohen)?
-4. **Criterio de coincidencia.** ¿F1 con coincidencia exacta de fragmento y tipo (*strict*) o parcial (*relaxed*)? Los LLM suelen salir peor en *strict*.
-5. **Uso de LLM vía API.** ¿Es aceptable enviar documentos de usuarios a un servicio externo (como ya ocurre con MinerU en P1) o el sistema final debe poder correr solo de forma local? Esto condiciona la elección del LLM en P3.
-6. **Idioma.** ¿Se consideran documentos en inglés y en español? Afecta la elección entre modelos monolingües (BETO, RoBERTa-BNE) y multilingües (GLiNER-multi, XLM-R).
-7. **Línea base clásica.** ¿Se requiere comparar contra un método clásico (CRF) por rigor académico, aunque no se use en el sistema final?
-8. **Alcance de relaciones en P2.** ¿Basta con co-ocurrencia y patrones de dependencias como "primeras pruebas", dejando la extracción formal de relaciones al LLM en P3?
-
----
 
 ## 6. Referencias
 
@@ -226,4 +214,3 @@ Por qué esta opción:
 - "Evaluation of Keyword Extraction using YAKE and KeyBERT in Text Preprocessing for Hoax News Detection Based on Bi-LSTM," 2025. https://www.researchgate.net/publication/394789438
 - M. Grootendorst, KeyBERT. https://github.com/MaartenGr/KeyBERT
 
-> **Nota sobre las cifras.** Los F1 provienen de benchmarks distintos (CoNLL-2002, CAPITEL, WikiNER, Multi-CoNER, CoNLL-2003 en inglés) y **no son directamente comparables entre sí**. Sirven para ordenar los enfoques, no para predecir el desempeño en nuestros documentos. Ese desempeño se medirá con el conjunto anotado de la Sección 4.
