@@ -1,0 +1,11 @@
+api_keys.txt
+backend/.env
+backend/data/
+__pycache__/
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+# El protocolo se versiona solo como PDF de ejemplo en samples/
+/2027-A038.pdf
+.env
+*.tsbuildinfo
