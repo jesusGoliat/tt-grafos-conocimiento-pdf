@@ -15,7 +15,7 @@
 
 El sistema procesa **documentos de dominio abierto** (académicos, técnicos, legales, empresariales), **mayoritariamente en español**. Propuesta inicial, a validar con el sinodal:
 
-| Tipo | Ejemplos tomados del propio protocolo | Naturaleza |
+| Tipo | Ejemplos | Naturaleza |
 |---|---|---|
 | `PERSONA` | "Ary Shared Rosas Castillo", "Wadhwa" | Entidad nombrada clásica |
 | `ORGANIZACION` | "Google", "Microsoft", "IPN" | Entidad nombrada clásica |
