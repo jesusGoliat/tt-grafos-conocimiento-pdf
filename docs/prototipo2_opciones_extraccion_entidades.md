@@ -1,10 +1,5 @@
 # Prototipo 2: Opciones para la extracción de entidades
 
-**Trabajo Terminal:** Generación de Grafos de Conocimiento a partir de Documentos PDF mediante LLM y NLP
-**Alumno:** González Arellano Jesús Ángel
-**Propósito:** documento comparativo para discutir con el sinodal la técnica de extracción de entidades del Prototipo 2. **No incluye implementación.**
-**Fecha:** octubre de 2026
-
 ---
 
 ## 1. Planteamiento del problema
