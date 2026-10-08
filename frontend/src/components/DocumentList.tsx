@@ -10,7 +10,9 @@ interface Props {
 export function DocumentList({ documents, selectedId, onSelect }: Props) {
   return (
     <section className="card">
-      <h2>Documentos</h2>
+      <h2>
+        Archivo <span className="count">{documents.length}</span>
+      </h2>
       {documents.length === 0 ? (
         <p className="muted">Aún no hay documentos procesados.</p>
       ) : (
@@ -18,6 +20,7 @@ export function DocumentList({ documents, selectedId, onSelect }: Props) {
           {documents.map((doc) => (
             <li key={doc.id}>
               <button className={doc.id === selectedId ? 'selected' : ''} onClick={() => onSelect(doc.id)}>
+                <span className="doc-icon" aria-hidden="true">PDF</span>
                 <span className="doc-name">{doc.filename}</span>
                 <span className="muted">
                   {doc.pages} pág. · {formatBytes(doc.size_bytes)} · {formatDate(doc.created_at)}

@@ -36,7 +36,7 @@ export function UploadForm({ disabled, onSubmit }: Props) {
 
   return (
     <section className="card">
-      <h2>Subir PDF</h2>
+      <h2>Nuevo documento</h2>
       <div
         className={`dropzone${dragging ? ' dragging' : ''}${disabled ? ' disabled' : ''}`}
         onDragOver={(e) => {
@@ -60,6 +60,11 @@ export function UploadForm({ disabled, onSubmit }: Props) {
             e.target.value = ''
           }}
         />
+        <svg className="drop-icon" viewBox="0 0 40 48" aria-hidden="true">
+          <path d="M4 2h22l10 10v34H4z" />
+          <path d="M26 2v10h10" />
+          <path className="arrow" d="M20 38V22m-6 6 6-6 6 6" />
+        </svg>
         {file ? (
           <p>
             <strong>{file.name}</strong>
@@ -84,7 +89,7 @@ export function UploadForm({ disabled, onSubmit }: Props) {
           }
         }}
       >
-        Extraer contenido
+        Extraer contenido <span aria-hidden="true">→</span>
       </button>
     </section>
   )

@@ -45,6 +45,8 @@ export function ResultViewer({ result }: { result: ExtractionResult }) {
   const [tab, setTab] = useState<Tab>('rendered')
   const base = result.filename.replace(/\.pdf$/i, '')
   const json = JSON.stringify(result.content_list, null, 2)
+  const blockTypes = Object.entries(result.stats.blocks_by_type).sort((a, b) => b[1] - a[1])
+  const maxCount = Math.max(1, ...blockTypes.map(([, count]) => count))
 
   // Las imágenes del Markdown son relativas (images/xxx.jpg): se resuelven contra el backend.
   const urlTransform = (url: string) =>
@@ -53,13 +55,16 @@ export function ResultViewer({ result }: { result: ExtractionResult }) {
   return (
     <section className="card result">
       <div className="result-header">
-        <h2>Resultado · {result.filename}</h2>
+        <div>
+          <p className="eyebrow">Resultado</p>
+          <h2>{result.filename}</h2>
+        </div>
         <div className="actions">
           <button onClick={() => download(`${base}.md`, result.markdown, 'text/markdown')}>Descargar .md</button>
           <button onClick={() => download(`${base}.json`, json, 'application/json')}>Descargar .json</button>
         </div>
       </div>
-      <div className="tabs" role="tablist">
+      <div className="tabs" role="tablist" aria-label="Formato del resultado">
         {TABS.map(([id, label]) => (
           <button key={id} role="tab" aria-selected={tab === id} className={tab === id ? 'active' : ''} onClick={() => setTab(id)}>
             {label}
@@ -84,19 +89,18 @@ export function ResultViewer({ result }: { result: ExtractionResult }) {
             <div><dt>Palabras</dt><dd>{result.stats.words.toLocaleString('es-MX')}</dd></div>
             <div><dt>Caracteres</dt><dd>{result.stats.characters.toLocaleString('es-MX')}</dd></div>
           </dl>
-          <table>
-            <thead>
-              <tr><th>Tipo de bloque</th><th>Cantidad</th></tr>
-            </thead>
-            <tbody>
-              {Object.entries(result.stats.blocks_by_type).map(([type, count]) => (
-                <tr key={type}>
-                  <td>{BLOCK_LABELS[type] ?? type}</td>
-                  <td>{count}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <h3>Bloques por tipo</h3>
+          <ul className="block-bars">
+            {blockTypes.map(([type, count]) => (
+              <li key={type}>
+                <span className="block-label">{BLOCK_LABELS[type] ?? type}</span>
+                <span className="block-track">
+                  <span style={{ width: `${(count / maxCount) * 100}%` }} />
+                </span>
+                <span className="block-count">{count}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       )}
     </section>

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { ApiError, getDocument, getHealth, getResult, listDocuments, uploadDocument } from './api/client'
 import { DocumentList } from './components/DocumentList'
+import { GraphMotif } from './components/GraphMotif'
 import { ProgressIndicator } from './components/ProgressIndicator'
 import { ResultViewer } from './components/ResultViewer'
 import { UploadForm } from './components/UploadForm'
@@ -88,12 +89,21 @@ export default function App() {
 
   return (
     <div className="layout">
-      <header>
-        <h1>Extracción de contenido de PDF</h1>
-        <p className="muted">
-          Prototipo 1 · Grafos de conocimiento a partir de PDF · Motor: MinerU
-          {health && ` (${health.mineru_model_version})`}
-        </p>
+      <header className="masthead">
+        <div className="masthead-text">
+          <p className="eyebrow">Trabajo Terminal · Prototipo 1</p>
+          <h1>
+            De PDF a <em>conocimiento</em>
+          </h1>
+          <p className="lede">
+            Sube un documento y obtén su contenido estructurado: el primer paso para convertirlo en un grafo.
+          </p>
+          <p className="engine">
+            <span className={`dot${health?.mineru_token_configured ? ' ok' : ''}`} />
+            Motor MinerU{health ? ` · ${health.mineru_model_version}` : ' · conectando…'}
+          </p>
+        </div>
+        <GraphMotif />
         {health && !health.mineru_token_configured && (
           <p className="warning">
             El backend no tiene token de MinerU. Define <code>MINERU_API_TOKEN</code> en <code>backend/.env</code> y
@@ -113,7 +123,12 @@ export default function App() {
         {result && <ResultViewer result={result} />}
         {!showProgress && !result && !error && (
           <section className="card empty">
-            <p className="muted">Sube un PDF o selecciona un documento para ver su contenido extraído.</p>
+            <h2>Tu documento aparecerá aquí</h2>
+            <ol className="how">
+              <li><span>1</span>Sube un PDF</li>
+              <li><span>2</span>MinerU extrae su estructura</li>
+              <li><span>3</span>Explora el texto, el JSON y las estadísticas</li>
+            </ol>
           </section>
         )}
       </main>

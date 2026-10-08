@@ -45,14 +45,14 @@ export function ProgressIndicator({ uploadFraction, doc }: Props) {
   const indeterminate = doc && !failed && doc.status !== 'done' && percent === 0
 
   return (
-    <section className="card" aria-live="polite">
-      <h2>
-        Progreso{doc && <span className="muted"> · {doc.filename}</span>}
-      </h2>
-      <ol className="steps">
+    <section className={`card progress${failed ? ' failed' : ''}`} aria-live="polite">
+      <p className="eyebrow">En proceso</p>
+      <h2>{doc ? doc.filename : 'Subiendo documento'}</h2>
+      <ol className="pipeline">
         {STEPS.map((step, i) => (
           <li key={step} className={i < index ? 'complete' : i === index ? 'active' : ''}>
-            {STEP_LABELS[step]}
+            <span className="node">{i < index ? '✓' : i + 1}</span>
+            <span className="label">{STEP_LABELS[step]}</span>
           </li>
         ))}
       </ol>
