@@ -1,4 +1,21 @@
-"""Genera las figuras del Prototipo 2 (Re-DocRED, prueba). Uso: python3 graficas_p2.py [dir_salida]"""
+"""Nota histórica: figuras del Prototipo 2.
+
+Este archivo NO forma parte del producto final del TT I y no debe ejecutarse como
+parte del sistema. Se conserva como nota porque es el único código que genera las
+figuras del Prototipo 2 y no existe una copia equivalente en el repositorio
+especializado.
+
+Sus datos están CODIFICADOS, no se leen de ningún CSV ni de ningún resultado. Por eso
+pueden quedar desfasados sin que nada lo advierta. La fuente autorizada de las métricas
+del Prototipo 2 es:
+
+    https://github.com/jesusGoliat/gliner-relex-docre-benchmark
+
+Si se vuelven a generar estas figuras, hay que actualizar los valores a mano y
+contrastarlos con `results/` del repositorio especializado.
+
+Uso original: python3 graficas_p2.py [dir_salida]
+"""
 import os, sys
 import matplotlib
 matplotlib.use("Agg")

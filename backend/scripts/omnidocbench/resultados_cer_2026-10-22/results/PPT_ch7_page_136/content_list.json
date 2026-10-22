@@ -1,0 +1,82 @@
+[
+    {
+        "type": "text",
+        "text": "Linear Transformations (continued)",
+        "text_level": 2,
+        "bbox": [
+            55,
+            168,
+            643,
+            225
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "If A in (11) is square, $n \\ \\times n ,$ then (11) maps $R ^ { n }$ into $R ^ { n }$ . If this A is nonsingular, so that $\\mathbf { A } ^ { - 1 }$ exists (see Sec. 7.8), then multiplication of (11) by $\\mathbf { A } ^ { - 1 }$ from the left and use of $\\mathbf { A } ^ { - 1 } \\mathbf { A } = \\mathbf { I }$ gives the inverse transformation",
+        "bbox": [
+            52,
+            248,
+            938,
+            466
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5176b5e808f54f2dd595345a6ebcb181cc0102e488b8be173f8aa678708e675a.jpg",
+        "text": "$$\n\\mathbf { x } = \\mathbf { A } ^ { - 1 } \\mathbf { y } .\\tag{14}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            352,
+            480,
+            493,
+            535
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "It maps every $\\mathbf { y } = \\mathbf { y } _ { 0 }$ onto that $\\mathbf { x , }$ which by (11) is mapped onto $\\mathbf { y } _ { 0 } .$ The inverse of a linear transformation is itself linear, because it is given by a matrix, as (14) shows.",
+        "bbox": [
+            51,
+            549,
+            898,
+            712
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "7.9 Vector Spaces, Inner Product Spaces, Linear Transformations Optional",
+        "bbox": [
+            462,
+            17,
+            961,
+            101
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "Section 7.9 p136",
+        "bbox": [
+            88,
+            904,
+            226,
+            936
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "Advanced Engineering Mathematics, 10/e by Edwin Kreyszig Copyright 2011 by John Wiley & Sons. All rights reserved.",
+        "bbox": [
+            450,
+            904,
+            909,
+            964
+        ],
+        "page_idx": 0
+    }
+]

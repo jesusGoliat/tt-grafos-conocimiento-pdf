@@ -1,0 +1,79 @@
+[
+    {
+        "type": "text",
+        "text": "Perceptual Linearization :",
+        "bbox": [
+            179,
+            88,
+            818,
+            170
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Compensates the contrast sensitivity of human visual system",
+        "bbox": [
+            82,
+            256,
+            827,
+            390
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Grayscale Standard Display Function",
+        "bbox": [
+            81,
+            473,
+            794,
+            540
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "– Input: Just Noticeable Differences (JNDs)",
+        "bbox": [
+            128,
+            555,
+            822,
+            613
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "– Output: absolute luminance",
+        "bbox": [
+            128,
+            631,
+            600,
+            687
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "\\- Barten's model",
+        "bbox": [
+            129,
+            705,
+            406,
+            757
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "\\- Described in DICOM Part 14",
+        "bbox": [
+            128,
+            779,
+            628,
+            833
+        ],
+        "page_idx": 0
+    }
+]

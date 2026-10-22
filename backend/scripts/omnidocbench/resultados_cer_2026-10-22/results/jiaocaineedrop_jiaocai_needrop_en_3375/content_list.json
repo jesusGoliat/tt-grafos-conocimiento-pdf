@@ -1,0 +1,125 @@
+[
+    {
+        "type": "text",
+        "text": "41. To earn a Space Exploration badge, a trainee needs to A. fly to space. B.get an Aviation badge first. C. study the principles of flight. D. build and fire model rockets.",
+        "bbox": [
+            134,
+            104,
+            719,
+            168
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "42.Whatis the most important for trainees? A. Leadership. B. Team spirit. C. Task planning. D.Survival skills.",
+        "bbox": [
+            134,
+            185,
+            624,
+            249
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "5.2018年北京卷D",
+        "text_level": 2,
+        "bbox": [
+            135,
+            279,
+            278,
+            295
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Preparing Cities for Robot Cars",
+        "text_level": 2,
+        "bbox": [
+            384,
+            311,
+            613,
+            326
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Thepossibility of self-driving robot cars has often seemed like a futurist's dream, yearsaway from materializing inthe real world.Well, the future is apparently now. TheCalifornia Department of Motor Vehicles began giving permitsin April for companies to test truly self-driving cars on public roads. The state also cleared the way for companies to sell or rent out self-driving cars, and for companies to operate driverless taxi services. California, it should be noted, isn't leading the way here. Companieshave been testing theirvehiclesin cities across the country. It's hard to predictwhen driverless cars will be everywhere on our roads.But howeverlong it takes, the technology has the potential to change our transportation systems and our cities, for better or for worse, depending on how the transformation is regulated.",
+        "bbox": [
+            133,
+            358,
+            864,
+            502
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "While much of the debate so far has been focused on the safety of driverless cars(and rightfullyso), policymakers also should be talking about how self-driving vehicles can help reduce traffic jams, cut emissions (排 放) and offer more convenient, affordable mobility options. The arrival of driverless vehicles is a chance to make sure that those vehicles are environmentally friendly and more shared",
+        "bbox": [
+            134,
+            510,
+            862,
+            581
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dowe wantto copy—or even worsen—the trafficof today with driverless cars?Imagine a future where most adults own individualself-driving vehicles. They toleratelong,slow journeystoand from work on packed highways because they can work, entertain themselves or sleep on the ride, which encourages urban spread. Theytaketheir driverless car to an appointmentand set the emptyvehicle to circle the building toavoid paying for parking. Instead of walking a few blocks to pick up a child or the dry cleaning,they send the selfdriving minibus. The convenience even leads fewerpeople totake public transport—anunwelcomeside effect researchershave already found in ride-hailing(叫车)services.",
+        "bbox": [
+            133,
+            589,
+            863,
+            715
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Astudy from the UniversityofCalifornia at Davissuggested that replacingpetrol-poweredprivate cars worldwide with electric,self-driving andsharedsystemscould reduce carbonemissions from transportation 80%and cut the costof transportation infrastructure(基础设施) and operations 40%by2050. Fewer emissions and cheaper travelsound pretty appealing. The first commercially available driverless cars will almost certainly be fielded by ride-hailing services, considering the cost of self-driving technology as well as liability and maintenance issues (责任与维护问题). But driverless car ownershipcould increase as the prices drop and more people become comfortable with the technology.",
+        "bbox": [
+            133,
+            723,
+            864,
+            849
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Policymakersshould start thinkingnowabout howto make sure the appearance of driverless vehicles doesn'textendthe worst aspects of the car-controlledtransportation system we havetoday. Thecoming",
+        "bbox": [
+            134,
+            856,
+            863,
+            891
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            159,
+            918,
+            173,
+            931
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "高途课堂",
+        "bbox": [
+            190,
+            918,
+            248,
+            931
+        ],
+        "page_idx": 0
+    }
+]

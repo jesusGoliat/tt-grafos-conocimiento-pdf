@@ -1,0 +1,95 @@
+[
+    {
+        "type": "text",
+        "text": "Each spring requires a 0.4 N force to extend or compress it by1.0 cm.",
+        "bbox": [
+            148,
+            79,
+            718,
+            100
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(c) What steady force is needed to move the pointer 2.0 cm from O? [2]",
+        "bbox": [
+            150,
+            129,
+            816,
+            192
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(d) What steady acceleration is required to move the pointer in (c)? [1]",
+        "bbox": [
+            152,
+            213,
+            820,
+            298
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The car starts from rest at time t = 0 and travels along a straight road. The accelerometer readings are recorded in Table14.",
+        "bbox": [
+            184,
+            319,
+            826,
+            357
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/e21265b95322ae62fb1e29d1a7745e4f85a237fe8c2edd84957c20fbc56197bc.jpg",
+        "table_caption": [
+            "Table 14"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Time / s</td><td rowspan=1 colspan=1>Acceleration / m/s²</td></tr><tr><td rowspan=1 colspan=1>0.00-3.00</td><td rowspan=1 colspan=1>11.00</td></tr><tr><td rowspan=1 colspan=1>3.00-4.50</td><td rowspan=1 colspan=1>7.00</td></tr><tr><td rowspan=1 colspan=1>4.50-7.00</td><td rowspan=1 colspan=1>0.00</td></tr></table>",
+        "bbox": [
+            326,
+            368,
+            690,
+            441
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(e) Howfast is the car travelling after 7.00 s? [1]",
+        "bbox": [
+            162,
+            490,
+            831,
+            574
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(f) How far does the car travel in the first 7.00 s? [3]",
+        "bbox": [
+            163,
+            581,
+            835,
+            715
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(g) Aeroplanes are fitted with three accelerometers as part of their navigation equipment. Why are three accelerometers needed? [2]",
+        "bbox": [
+            167,
+            720,
+            837,
+            805
+        ],
+        "page_idx": 0
+    }
+]

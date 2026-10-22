@@ -1,0 +1,47 @@
+[
+    {
+        "type": "text",
+        "text": "Turkey",
+        "text_level": 2,
+        "bbox": [
+            35,
+            112,
+            160,
+            171
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Yilmaz 2011 looked at the relationships between Turkish primary and secondary school teachers' perceptions of selfefficacy, English proficiency, and instructional strategies",
+        "bbox": [
+            31,
+            246,
+            931,
+            408
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Results indicated that teachers' perceived efficacy was correlated with their self-reported English proficiency",
+        "bbox": [
+            35,
+            427,
+            898,
+            536
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "UNIVERSITY OF LEEDS",
+        "bbox": [
+            706,
+            128,
+            965,
+            167
+        ],
+        "page_idx": 0
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "type": "equation",
+        "img_path": "images/1fd30994e119b34a15fd7702fe383ff40d4844558b9db74d62ad66a1ae0dd087.jpg",
+        "text": "$$\n\\begin{array} { r l } { = } & { 2 \\displaystyle \\sum _ { 1 \\leq u \\leq \\sqrt { x } } \\left[ \\frac { x } { u } \\right] - \\left[ \\sqrt { x } \\right] ^ { 2 } } \\\\ { = } & { 2 \\displaystyle \\sum _ { 1 \\leq u \\leq \\sqrt { x } } \\left( \\frac { x } { u } - \\left\\{ \\frac { x } { u } \\right\\} \\right) - \\left( \\sqrt { x } - \\left\\{ \\sqrt { x } \\right\\} \\right) ^ { 2 } } \\\\ { = } & { 2 x \\displaystyle \\sum _ { 1 \\leq u \\leq \\sqrt { x } } \\frac { 1 } { u } - 2 \\displaystyle \\sum _ { 1 \\leq u \\leq \\sqrt { x } } \\left\\{ \\frac { x } { u } \\right\\} - x + O ( \\sqrt { x } ) } \\\\ { = } & { 2 x \\left( \\log \\sqrt { x } + \\gamma + O \\left( \\frac { 1 } { \\sqrt { x } } \\right) \\right) - x + O ( \\sqrt { x } ) } \\\\ { = } & { x \\log x + ( 2 \\gamma - 1 ) x + O ( \\sqrt { x } ) . } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            234,
+            77,
+            701,
+            297
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "This completes the proof.■",
+        "bbox": [
+            139,
+            313,
+            419,
+            333
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Theorem 7.4 For $x \\geq 1$",
+        "bbox": [
+            139,
+            384,
+            398,
+            403
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/dc4e5d49c708cef7dd33760bf009d5eab5a461a2452b694e0e2eb817bf62807e.jpg",
+        "text": "$$\n\\Delta ( x ) = \\sum _ { n \\leq x } \\left( \\log n - d ( n ) + 2 \\gamma \\right) = O \\left( x ^ { 1 / 2 } \\right) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            284,
+            420,
+            717,
+            462
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Proof. By Theorem 7.3 we have",
+        "bbox": [
+            160,
+            479,
+            485,
+            497
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5a3b500b668f36b2731932f6cb7169331cfeb00cb11d03c118a3312668088fec.jpg",
+        "text": "$$\n\\sum _ { n \\leq x } d ( n ) = x \\log x + ( 2 \\gamma - 1 ) x + O \\left( x ^ { 1 / 2 } \\right) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            288,
+            513,
+            711,
+            557
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "By Theorem 6.4 we have",
+        "bbox": [
+            138,
+            573,
+            388,
+            591
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e7bc764ef8f87a0b86a8ae9194d16446717ca514c8c44be6d5e550146de537a1.jpg",
+        "text": "$$\n\\sum _ { n \\leq x } \\log n = x \\log x - x + O ( \\log x ) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            332,
+            608,
+            667,
+            650
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Subtracting the first equation from the second, we obtain",
+        "bbox": [
+            138,
+            665,
+            703,
+            684
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f921e7f753398f7909a9aa26a05c7f311010888cf8a1d6b48e35f4c3d3b30acc.jpg",
+        "text": "$$\n\\sum _ { n \\leq x } \\left( \\log n - d ( n ) + 2 \\gamma \\right) = O \\left( x ^ { 1 / 2 } \\right) - 2 \\gamma \\{ x \\} + O ( \\log x ) = O \\left( x ^ { 1 / 2 } \\right) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            166,
+            699,
+            831,
+            744
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "An ordered factorization of the positive integer n into exactly l factors is an l-tuple $( d _ { 1 } , \\ldots , d _ { \\ell } )$ such that $n = d _ { 1 } \\cdot \\cdot \\cdot d _ { \\ell }$ . The divisor function $d ( n )$ counts the number of ordered factorizations of n into exactly two factors, since each factorization $n = d d ^ { \\prime }$ is completely determined by the first factor $d .$ For every positive integer $\\ell ,$ we define the arithmetic function $d _ { \\ell } ( n )$ as the number of factorizations of $n$ into exactly l factors. Then $d _ { 1 } ( n ) = 1$ and $d _ { 2 } ( n ) = d ( n )$ for all $n$",
+        "bbox": [
+            137,
+            811,
+            864,
+            946
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "234",
+        "bbox": [
+            141,
+            46,
+            177,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "7. Divisor Functions",
+        "bbox": [
+            218,
+            45,
+            414,
+            61
+        ],
+        "page_idx": 0
+    }
+]

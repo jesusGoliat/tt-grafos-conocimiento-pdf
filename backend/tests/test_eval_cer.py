@@ -31,6 +31,21 @@ def test_blocks_text_includes_lists_and_captions_excludes_tables():
             == "Cuerpo\nuno\ndos\nTabla 1\nNota\nFigura 1\nGráfico 1\nFuente")
 
 
+def test_extracted_text_filters_in_both_modes(tmp_path):
+    # El modo documento completo debe aplicar la misma exclusión que el modo página.
+    (tmp_path / "content_list.json").write_text(
+        '[{"type": "text", "text": "Cuerpo", "page_idx": 0},'
+        ' {"type": "table", "table_body": "<table>x</table>", "page_idx": 0},'
+        ' {"type": "text", "text": "Segunda", "page_idx": 1},'
+        ' {"type": "equation", "text": "x^2", "page_idx": 1}]',
+        encoding="utf-8",
+    )
+    (tmp_path / "document.md").write_text("Cuerpo\n<table>x</table>\nSegunda\nx^2", encoding="utf-8")
+
+    assert eval_cer.extracted_text(tmp_path, 1) == "Cuerpo"
+    assert eval_cer.extracted_text(tmp_path, None) == "Cuerpo\nSegunda"
+
+
 def test_normalize_does_not_remove_latex_commands():
     # La normalización quita \, _ y $, pero conserva letras y llaves de LaTeX.
     assert eval_cer.normalize(r"$\alpha_{1}$ + x^2") == "alpha {1} + x^2"

@@ -1,0 +1,158 @@
+[
+    {
+        "type": "text",
+        "text": "20.2 Defect Amplification and Removal",
+        "text_level": 2,
+        "bbox": [
+            158,
+            65,
+            878,
+            120
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Defect Amplification Model",
+        "text_level": 2,
+        "bbox": [
+            48,
+            154,
+            520,
+            201
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Defects",
+        "bbox": [
+            346,
+            204,
+            432,
+            238
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Detection",
+        "bbox": [
+            596,
+            204,
+            699,
+            238
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Errors from Previous step",
+        "bbox": [
+            78,
+            248,
+            222,
+            322
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Errors passed through",
+        "bbox": [
+            347,
+            258,
+            576,
+            298
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Amplified errors 1:x",
+        "bbox": [
+            346,
+            323,
+            548,
+            365
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Percent Efficiency",
+        "bbox": [
+            604,
+            291,
+            708,
+            368
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Errors passed To next step",
+        "bbox": [
+            762,
+            289,
+            910,
+            366
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Newly generated errors",
+        "bbox": [
+            346,
+            390,
+            588,
+            431
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Development step",
+        "bbox": [
+            429,
+            446,
+            619,
+            482
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Assume that an error uncovered during design will cost 1.5 monetary unit to correct. Relative to this cost, the same error uncovered just before testing commences will cost 6.5 units; during testing, 15 units; and after release, between 67 and 100 units.",
+        "bbox": [
+            62,
+            490,
+            911,
+            709
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A number of studies indicate that design activities introduce between 50% - 65% of all errors during the software process. However, formal review technique have been shown to be up to E 75% effective in uncovering design flaws.",
+        "bbox": [
+            63,
+            721,
+            918,
+            898
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "2/16",
+        "bbox": [
+            926,
+            952,
+            980,
+            986
+        ],
+        "page_idx": 0
+    }
+]

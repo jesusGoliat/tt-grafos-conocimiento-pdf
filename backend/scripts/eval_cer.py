@@ -4,7 +4,9 @@
 
 La comparación usa el cuerpo, los títulos, las listas, el código y las captions/notas
 de tablas y figuras; excluye tablas, ecuaciones aisladas y encabezados/pies/números
-de página (véase blocks_text).
+de página (véase blocks_text). La exclusión se aplica igual con y sin --page: ambos
+modos leen content_list.json y pasan por blocks_text. Solo si falta ese archivo se usa
+document.md, que no permite filtrar y por tanto no es comparable con la referencia.
 
 Uso (desde backend/):
     # Contra una transcripción manual de la página 1 (recomendado para la evaluación formal)
@@ -86,11 +88,21 @@ def blocks_text(blocks: list[dict]) -> str:
 
 
 def extracted_text(result_dir: Path, page: int | None) -> str:
-    """Texto extraído: por página desde content_list.json, o el documento completo desde document.md."""
-    if page is None:
+    """Texto extraído, filtrado con blocks_text tanto por página como en el documento completo.
+
+    Se lee siempre content_list.json para que la exclusión de tablas, ecuaciones y
+    encabezados/pies sea la misma en los dos modos. Solo si no existe ese archivo se
+    recurre a document.md, que no permite filtrar y por tanto no es comparable.
+    """
+    content_list = result_dir / "content_list.json"
+    if not content_list.is_file():
+        if page is not None:
+            raise SystemExit(f"No hay content_list.json en {result_dir}; no se puede filtrar por página.")
         return (result_dir / "document.md").read_text(encoding="utf-8")
-    blocks = json.loads((result_dir / "content_list.json").read_text(encoding="utf-8"))
-    return blocks_text([b for b in blocks if b.get("page_idx") == page - 1])
+    blocks = json.loads(content_list.read_text(encoding="utf-8"))
+    if page is not None:
+        blocks = [b for b in blocks if b.get("page_idx") == page - 1]
+    return blocks_text(blocks)
 
 
 def pdf_text(pdf_path: Path, page: int | None) -> str:

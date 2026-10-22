@@ -1,10 +1,9 @@
 """Descarga las imágenes de la muestra, las convierte a PDF de una página y las extrae con el MinerUApiExtractor del backend."""
 import asyncio, datetime, json, os, sys, urllib.parse, urllib.request
 from pathlib import Path
-BACKEND = Path(os.environ.get(
-    "TFM_BACKEND",
-    "/home/jesus/Desktop/Protocolo/Documentacion/Reporte_tecnico_plantilla/Avances_Proto/backend",
-))
+# El backend se localiza a partir de la ubicación del script; TFM_BACKEND permite
+# apuntar a otra copia.
+BACKEND = Path(os.environ.get("TFM_BACKEND") or Path(__file__).resolve().parents[2])
 if not (BACKEND / "app").is_dir():
     raise SystemExit(f"No se encontró el backend en {BACKEND}; define TFM_BACKEND.")
 sys.path.insert(0, str(BACKEND))

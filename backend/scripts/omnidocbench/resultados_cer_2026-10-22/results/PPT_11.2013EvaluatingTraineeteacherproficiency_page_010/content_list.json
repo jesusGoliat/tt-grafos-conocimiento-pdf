@@ -1,0 +1,80 @@
+[
+    {
+        "type": "text",
+        "text": "Good Language Teachers",
+        "text_level": 2,
+        "bbox": [
+            35,
+            112,
+            494,
+            170
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Mostly based on asking language learners and showed that language proficiency was seen as one important factor",
+        "bbox": [
+            32,
+            246,
+            932,
+            353
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eg: Girard (1977- French learners of English), teaches good pronunciation, explains clearly, speaks good English,",
+        "bbox": [
+            32,
+            373,
+            946,
+            482
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eg: Brosh (1996)",
+        "bbox": [
+            34,
+            501,
+            292,
+            554
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• knowledge and command of the target language;",
+        "bbox": [
+            33,
+            576,
+            803,
+            630
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Teacher Evaluation - context universal- Evaluation fairly simple - based on visible behaviours / learner outcomes in ‘objective'tests",
+        "bbox": [
+            31,
+            651,
+            934,
+            811
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "UNIVERSITY OF LEEDS",
+        "bbox": [
+            706,
+            60,
+            965,
+            168
+        ],
+        "page_idx": 0
+    }
+]

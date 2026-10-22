@@ -1,0 +1,199 @@
+[
+    {
+        "type": "text",
+        "text": "$( \\epsilon = * , ! )$ , where $S _ { L ^ { \\prime } } \\in \\Lambda$ is the polyhedron such that rel.int $S _ { L ^ { \\prime } } \\supset$ rel.int $S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime }$ , the morphism $j _ { S _ { L ^ { \\prime } } }$ : rel.int $S _ { L ^ { \\prime } }  X$ is the inclusion,",
+        "bbox": [
+            87,
+            105,
+            910,
+            144
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/78d7dc114e37347aa4546489e72a309d77633cea7a090e0c82f244e3dd28c119.jpg",
+        "text": "$$\na ^ { \\prime } ( S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime } = 0 , \\ S _ { L ^ { \\prime } } = a _ { S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime } } ^ { \\prime } ) \\in \\mathbb { Z } ^ { \\Lambda \\cup \\Lambda ^ { \\prime } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            156,
+            666,
+            183
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "is the element whose $S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime }$ -component is $0 , \\ S _ { L ^ { \\prime } } - c o m p o n e n t$ is $a _ { S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime } } ^ { \\prime }$ , and the other components are same as $a ^ { \\prime }$ , and",
+        "bbox": [
+            87,
+            195,
+            910,
+            237
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/aea3c837617c41aae19c7775a8914d4ba61ffd3a49e90052d91f0c93476bbe20.jpg",
+        "text": "$$\n\\begin{array} { r } { a ^ { \\prime } ( S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime } = a _ { S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime } } ^ { \\prime } + \\mathrm { c o d i m } _ { S _ { L ^ { \\prime } } } S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime } ) \\in \\mathbb { Z } ^ { \\Lambda \\cup \\Lambda ^ { \\prime } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            287,
+            249,
+            707,
+            275
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "is the element whose $S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime } – c o m p o n e n t$ is $a _ { S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime } } ^ { \\prime } + \\mathrm { c o d i m } _ { S _ { L ^ { \\prime } } } S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime }$ , and the other components are same as $a ^ { \\prime }$",
+        "bbox": [
+            87,
+            288,
+            910,
+            329
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Proof. In the same way as Lemma 5.8, there is a decomposition",
+        "bbox": [
+            87,
+            342,
+            629,
+            361
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bce62db0958bde8767f4e85b3b39c4849628cfe0f0f9d693d824c211e9c4ff52.jpg",
+        "text": "$$\n\\mathrm { F i l } _ { * } ^ { \\Lambda _ { 2 } s _ { L ^ { \\prime } } } \\mathcal { F } _ { X _ { \\mathrm { s m } } } ^ { p , w } \\vert _ { X _ { \\mathrm { s m } } \\cap \\bigcap _ { i = 1 } ^ { r } B _ { S _ { L ^ { \\prime } , i } ^ { \\prime } } ^ { r ( L ^ { \\prime } ) } } \\cong \\bigoplus _ { \\substack { b \\in \\mathbb Z \\big \\{ } s _ { L ^ { \\prime } , i } ^ { r ( L ^ { \\prime } ) } \\cup \\big \\{ s _ { L ^ { \\prime } } \\} }  \\mathrm { F i l } _ { * } ^ { \\Lambda _ { 2 } s _ { L ^ { \\prime } } } \\mathrm { g r } _ { b } \\mathcal { F } _ { X _ { \\mathrm { s m } } } ^ { p , w } \\vert _ { X _ { \\mathrm { s m } } \\cap \\bigcap _ { i = 1 } ^ { r ( L ^ { \\prime } ) } W _ { S _ { L ^ { \\prime } , i } ^ { \\prime } } ^ { r } } ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            149,
+            373,
+            846,
+            427
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "where direct summands of the right-hand side are defined similarly to above Lemma 5.8. Then we have a decomposition of $\\begin{array} { r l } {  { I C _ { \\mathrm { T r o p , s h e a f } , X } ^ { d - \\overline { { p } } , * } \\big \\vert _ { \\bigcap _ { i = 1 } ^ { r ( L ^ { \\prime } ) } W _ { S _ { L ^ { \\prime } , i } ^ { \\prime } } ^ { \\prime } } } \\quad } & { { } } \\end{array}$ similar to Corollary 5.24. Then cohomology 2 groups in the assertion are direct sums of cohomology groups of direct summands, and the assertion immediately follows from direct computation. (Note that we can take $W _ { S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime } } ^ { \\prime } \\subset W _ { S _ { L ^ { \\prime } } }$ , since $a ^ { \\prime }$ is adapted to $L ^ { \\prime } ,$ we have $a _ { S _ { L ^ { \\prime } } } ^ { \\prime } \\geq 0$ , and we have $\\sigma _ { S _ { L ^ { \\prime } } } = \\sigma _ { S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) } ^ { \\prime } } . \\mathrm { } )$ □",
+        "bbox": [
+            85,
+            440,
+            909,
+            553
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Remark 6.14. By construction, $\\mathrm { F i l } _ { * } ^ { \\Lambda \\cup \\Lambda ^ { \\prime } } I C _ { \\mathrm { T r o p , s h e a f } } ^ { d - p , * }$ satisfies analogs of Axiom $A _ { p } \\left( 1 \\right)$ and (2) at each $S _ { k } \\in \\Lambda _ { \\mathrm { s i n g } }$ for an adapted pair $L ^ { \\prime } = \\left( S _ { L ^ { \\prime } , 1 } ^ { \\prime } \\subseteq \\cdots \\subsetneq S _ { L ^ { \\prime } , r ( L ^ { \\prime } ) - 1 } ^ { \\prime } \\subseteq S _ { k } \\right) \\left( S _ { L ^ { \\prime } , i } ^ { \\prime } \\in \\Lambda ^ { \\prime } \\right)$ and $a ^ { \\circ } \\in \\mathbb { Z } ^ { \\Lambda \\cup \\Lambda ^ { \\prime } }$ . By decompositions in proof of Lemma 6.13 and Lemma 5.2í, it also satisfies an analog of Axiom $A _ { p }$ (2)′.",
+        "bbox": [
+            87,
+            566,
+            909,
+            643
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Proposition 6.15. We have a natural LG-quasi-isomorphism",
+        "bbox": [
+            87,
+            656,
+            617,
+            674
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/789f80240af1fd80f85b5dc97e542ce434a084370661695f2ef2d5ca80c02157.jpg",
+        "text": "$$\n\\mathrm { F o r } _ { \\Lambda \\backslash \\Lambda ^ { \\prime } } \\mathrm { F i l } _ { * } ^ { \\Lambda \\cup \\Lambda ^ { \\prime } } I C _ { \\mathrm { T r o p } , \\mathrm { s h e a f } } ^ { d - p , * } \\cong \\mathrm { F i l } _ { * } ^ { \\Lambda ^ { \\prime } } I C _ { \\mathrm { T r o p } , \\mathrm { s h e a f } , X ^ { \\prime } } ^ { d - p , * }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            300,
+            685,
+            695,
+            709
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "in $D _ { c , [ - \\operatorname { g r } ( X ^ { \\prime } ) , 0 ] , L G } ^ { b } ( X , \\operatorname { g r M o d } \\mathbb { Q } [ T _ { S ^ { \\prime } } ] _ { S ^ { \\prime } \\in \\Lambda ^ { \\prime } } )$",
+        "bbox": [
+            87,
+            721,
+            432,
+            744
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Proof. We have a natural LG-isomorphism",
+        "bbox": [
+            87,
+            754,
+            452,
+            772
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3c77223e6f9524e6f0e000f9dc11456b859ac5bf056d6f3e4599cd17ec7b3fbf.jpg",
+        "text": "$$\n\\mathrm { F o r } _ { \\Lambda \\backslash \\Lambda ^ { \\prime } } \\mathrm { F i l } _ { * } ^ { \\Lambda \\cup \\Lambda ^ { \\prime } } \\mathcal { F } _ { X _ { \\mathrm { s m } } } ^ { d - p , w } | _ { X _ { \\mathrm { s m } } ^ { \\prime } } \\cong \\mathrm { F i l } _ { * } ^ { \\Lambda ^ { \\prime } } \\mathcal { F } _ { X _ { \\mathrm { s m } } ^ { \\prime } } ^ { d - p , w ^ { \\prime } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            320,
+            784,
+            675,
+            809
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "on $X _ { \\mathrm { s m } } ^ { \\prime }$ . By Proposition 5.17, it suffices to show that For $\\Lambda \\backslash \\Lambda ^ { \\prime } ^ { \\mathrm { \\tiny ~ F i l } _ { * } ^ { \\Lambda \\cup \\Lambda ^ { \\prime } } } I C _ { \\mathrm { \\tiny ~ T r o p , s h e a f } } ^ { d - p , * }$ satisfies Axiom $A _ { p }$ (1) and $( 2 ) ^ { \\prime }$ at each $S ^ { \\prime } \\in \\Lambda _ { \\mathrm { s i n g } } ^ { \\prime }$ . This follows from Remark 5.20, Lemma 6.13, and Remark 6.14 directly. (Note that for $S \\in \\Lambda$ and $S ^ { \\prime } \\in \\Lambda ^ { \\prime }$ with rel.int $S ^ { \\prime } \\subset \\mathrm { r e l . i n t } S$ , we have $m _ { p , S } + \\mathrm { c o d i m } _ { S } S ^ { \\prime } =$ $m _ { p , S ^ { \\prime } } . )$ □",
+        "bbox": [
+            86,
+            822,
+            909,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "62",
+        "bbox": [
+            89,
+            78,
+            109,
+            90
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "RYOTA MIKAMI",
+        "bbox": [
+            435,
+            77,
+            563,
+            92
+        ],
+        "page_idx": 0
+    }
+]

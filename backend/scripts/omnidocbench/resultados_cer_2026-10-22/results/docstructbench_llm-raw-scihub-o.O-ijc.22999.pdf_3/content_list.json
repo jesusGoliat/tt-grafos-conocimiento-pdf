@@ -1,0 +1,139 @@
+[
+    {
+        "type": "image",
+        "img_path": "images/1eddecf89e379074f4e299a944bd156901f8ee1d054c97699a772762bd1f7a0e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            199,
+            96,
+            568,
+            224
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "chart",
+        "img_path": "images/1eb43872c34c7c13f55e00d8c84aa22db8d6418977a250d2a7a97236cbedf8f3.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            575,
+            101,
+            763,
+            239
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "chart",
+        "img_path": "images/d231ec89fe112749fec8beaaaf0249a7a936c58ea9a7e0b00fa0914687afc3ac.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            202,
+            251,
+            524,
+            423
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "chart",
+        "img_path": "images/e52461ee454039635a5b1df6353b5dc3a0c871508d01bc17ae0f74c4ff0439a1.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            545,
+            249,
+            797,
+            422
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/e007f5cc21047ea41c6a791dbeb24141b96f7abe43b8258fcf33cf4a49b2bc86.jpg",
+        "image_caption": [
+            "FiGuRE 1 – Combination of VEGFR and PDGFR tyrosine kinase inhibitors inhibits B16 melanoma tumor growth in vivo. (a) Subconfluent cultures of PAE/PDGFRβ cells were stimulated with conditioned media from B16/mock or B16/PDGF-BB cells for 1 hr on ice (left panels). Alternatively, PAE/PDGFRβ cells were incubated for 5 min at $3 7 ^ { \\circ } \\mathrm { C }$ with conditioned medium or increasing amounts of PDGF-BB (right panels). PDGFRβ phosphorylation was analyzed by PDGFRβ and phospho-tyrosine (pTyr) immunoblotting of wheat germ agglutinin adsorbed fractions of cell lysates. (b) B16/PDGF-BB cells were seeded in 12-well plates and cultured in the presence of vehicle (◆), 3 μM STI571 (), 1 μM PTK787 (▲) or $3 \\mu \\mathrm { M }$ STI571 and 1 μM PTK787 (). B16/mock (c) or B16/PDGF-BB (d) cells were inoculated subcutaneously to C57B16/J mice. When the tumor volume reached 20 mm³, mice received either p.o. gavage of vehicle (◆), 100 mg/kg/day STI571 (), 25 mg/kg/day PTK787 (▲) or 100 mg/kg/day STI571 and 25 mg/kg/day PTK787 (O). Treatment was given for 13 days for mice bearing B16/mock tumors (c) and 8 days for mice bearing B16/PDGF-BB tumors (d).Tumor volumes, determined by palpation were followed over time. Results are presented as mean and S.E.M. Statistical significance was evaluated using a one-way ANOVA followed by post hoc analysis applying the Duncan adjustment. Significance is shown for the last day of treatment: $^ { * } , p < 0 . 0 5$ compared to vehicle treatment; $\\ S , p < \\dot { 0 } . 0 5$ compared to PTK787 treatment; $\\# , \\breve { p } < 0 . 0 5$ compared to STI571 treatment. (e) Sis-NIH3T3 tumors treated with vehicle (lanes 2 and 3), a combination of PTK787/STI571 $( 2 5$ mg/100 mg/kg/day; lanes 4 and 5), PTK787 (25 mg/kg/day, lanes 6 and 7), STI571 (100 mg/kg/day, lanes 8 and 9) or STI571 (200 mg/kg/ day, lanes 10 and 11). PDGFRβ was immunoprecipitated from 15 mg tumor lysate, and receptor phosphorylation was analyzed by PDGFRβ and phospho-tyrosine (pTyr) immunoblotting. Rabbit IgG recognizing PTEN was used for immunoprecipitation as a negative control (lane 1). The ratio between the densitometric analysis of the phosphotyrosine band and the upper, mature PDGFRβ band were compared to the first vehicle-treated tumor to obtain the relative receptor phosphorylation."
+        ],
+        "image_footnote": [],
+        "bbox": [
+            210,
+            438,
+            700,
+            576
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Results",
+        "text_level": 2,
+        "bbox": [
+            93,
+            800,
+            147,
+            811
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In vitro characterization of a B16F10 melanoma clone which produces PDGF-BB",
+        "bbox": [
+            93,
+            813,
+            423,
+            838
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A B16 melanoma cell line producing PDGF-BB (B16/PDGF-BB) was previously established.26 This cell line was used to isolate a clone with robust PDGF-BBproduction that was selected for further experiments. As shown in Figure 1a (left panels), conditioned medium from the selected B16/PDGF-BB clone, but not from a mock-transfected clone (B16/mock), induced strong PDGFRβ phosphorylation in porcine aortic endothelialcells transfected with the PDGFRβ(PAE/PDGFRβ), indicating production of a large amount of PDGF-BB. The amount of PDGF-BB released into the conditioned medium was estimated by incubating PAE/PDGFRβcells with either conditioned medium or increasing amounts of PDGF-BB. After 2 days, the B16/PDGF-BB cells had released an amount of PDGF into the medium that was in excess of 0.5 ng/ml PDGF-BB (Fig. 1a, right panels). It should be noted that PDGF-BB sticks to both cells and plastic, so this amount is likely to represent underestimation of the production of PDGF-BB.",
+        "bbox": [
+            91,
+            839,
+            493,
+            924
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            503,
+            798,
+            906,
+            924
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "2608",
+        "bbox": [
+            94,
+            74,
+            129,
+            86
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "HASUMI ET AL.",
+        "bbox": [
+            455,
+            75,
+            542,
+            86
+        ],
+        "page_idx": 0
+    }
+]

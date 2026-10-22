@@ -1,0 +1,317 @@
+[
+    {
+        "type": "text",
+        "text": "A5 (by Abhinav Kumar) Define $G : \\mathbb { R }  \\mathbb { R }$ by $G ( x ) =$ $\\textstyle \\int _ { 0 } ^ { x } g ( t ) d t$ . By assumption, G is a strictly increasing, thrice continuously differentiable function. It is also bounded: for $x > 1$ , we have",
+        "bbox": [
+            98,
+            65,
+            490,
+            125
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/93aa5c94f3f5fc69adcdf5e6f88a45b4075c5f38e7ca7c4c5fd968a11de81a46.jpg",
+        "text": "$$\n0 < G ( x ) - G ( 1 ) = \\int _ { 1 } ^ { x } g ( t ) d t \\leq \\int _ { 1 } ^ { x } d t / t ^ { 2 } = 1 ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            129,
+            133,
+            442,
+            164
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "and similarly, for $x < - 1$ , we have $0 > G ( x ) - G ( - 1 ) \\geq$ $^ { - 1 }$ . It follows that the image of G is some open interval $^ { ( A , B ) }$ and that $G ^ { - 1 } : ( A , B ) \\to$ R is also thrice continuously differentiable.",
+        "bbox": [
+            123,
+            174,
+            490,
+            232
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Define ${ \\cal H } \\ : \\ ( A , B ) \\times ( A , B ) \\  \\ \\mathbb { R } \\ \\mathrm { \\normalfont ~ b y ~ } \\ { \\cal H } ( x , y ) \\ =$ $F ( G ^ { - 1 } ( x ) , G ^ { - 1 } ( y ) ) ; \\quad { \\mathrm { i t } }$ is twice continuously differentiable since F and $G ^ { - 1 }$ are. By our assumptions about F,",
+        "bbox": [
+            122,
+            236,
+            490,
+            296
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/842970dad8b241f01da7804114352c3f0b1c6bd233d31b0bea03a70e209283d4.jpg",
+        "text": "$$\n\\begin{array} { l } { \\displaystyle { \\frac { \\partial H } { \\partial x } + \\frac { \\partial H } { \\partial y } = \\frac { \\partial F } { \\partial x } ( G ^ { - 1 } ( x ) , G ^ { - 1 } ( y ) ) \\cdot \\frac { 1 } { g ( G ^ { - 1 } ( x ) ) } } } \\\\ { \\displaystyle { \\qquad + \\frac { \\partial F } { \\partial y } ( G ^ { - 1 } ( x ) , G ^ { - 1 } ( y ) ) \\cdot \\frac { 1 } { g ( G ^ { - 1 } ( y ) ) } = 0 . } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            100,
+            308,
+            475,
+            377
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Therefore H is constant along any line parallel to the vector $( 1 , 1 )$ , or equivalently, $H ( x , y )$ depends only on $x - y .$ We may thus write $H ( x , y ) = h ( x - y )$ for some function h on $\\left( - ( B - A ) , B - A \\right)$ , and we then have $F ( x , y ) = h ( G ( x ) - G ( y ) )$ . Since $F ( u , u ) = 0$ , we have $h ( 0 ) = 0$ Also, h is twice continuously differentiable (since it can be written as $h ( x ) = H ( ( A + B + x ) / 2 , ( A +$ $B - x ) / 2 ) )$ , SO $| h ^ { \\prime } |$ is bounded on the closed interval $[ - ( B - A ) / 2 , ( B - A ) / 2 ]$ , say by M.",
+        "bbox": [
+            121,
+            386,
+            491,
+            520
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Given $x _ { 1 } , \\ldots , x _ { n + 1 } \\in \\mathbb { R }$ for some $n \\geq 2 .$ , the numbers $G ( x _ { 1 } ) , \\dots , G ( x _ { n + 1 } )$ all belong to $( A , B )$ , so we can choose indices i and j so that $| G ( x _ { i } ) - G ( x _ { j } ) | \\leq ( B -$ $A ) / n \\leq ( B - A ) / 2$ . By the mean value theorem,",
+        "bbox": [
+            122,
+            522,
+            490,
+            582
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/310ca7b23a42d52be4e4086e72e8020192ae97a88a06bdcc93ad6aadf005765d.jpg",
+        "text": "$$\n| F ( x _ { i } , x _ { j } ) | = | h ( G ( x _ { i } ) - G ( x _ { j } ) ) | \\leq M { \\frac { B - A } { n } } ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            141,
+            607,
+            432,
+            639
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "so the claim holds with $C = M ( B - A )$",
+        "bbox": [
+            123,
+            647,
+            382,
+            663
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A6 Choose some ordering $h _ { 1 } , \\ldots , h _ { n }$ of the elements of G with $h _ { 1 } = e$ . Define an $n \\times n$ matrix M by settting $M _ { i j } =$ $1 / k$ if $h _ { j } = h _ { i } g$ for some $g \\in \\{ g _ { 1 } , \\ldots , g _ { k } \\}$ and $M _ { i j } = 0$ otherwise. Let v denote the column vector $( 1 , 0 , \\ldots , 0 )$ The probability that the product of m random elements of $\\{ g _ { 1 } , \\ldots , g _ { k } \\}$ equals $h _ { i }$ can then be interpreted as the i-th component of the vector $M ^ { m } \\nu$",
+        "bbox": [
+            97,
+            672,
+            491,
+            775
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Let $\\hat { G }$ denote the dual group of G, i.e., the group of complex-valued characters of G. Let $\\hat { e } \\in \\hat { G }$ denote the trivial character. For each $\\chi \\in { \\hat { G } }$ , the vector $\\nu _ { \\chi } = ( \\chi ( h _ { i } ) ) _ { i = 1 } ^ { n }$ is an eigenvector of M with eigenvalue $\\ddot { \\lambda _ { \\chi } } = ( \\chi ( g _ { 1 } ) \\dot { + } \\dot { \\dots } + \\chi ( g _ { k } ) ) / k$ . In particular, $\\nu _ { \\hat { e } }$ is the all-ones vector and $\\lambda _ { \\hat { e } } = 1$ . Put",
+        "bbox": [
+            121,
+            778,
+            491,
+            867
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cd9fc693c261722fd85202eb1c085663e1385fc14469129373a1f8fa0690d4be.jpg",
+        "text": "$$\nb = \\operatorname* { m a x } \\{ | \\lambda _ { \\chi } | : \\chi \\in \\hat { G } - \\{ \\hat { e } \\} \\} ;\n$$",
+        "text_format": "latex",
+        "bbox": [
+            184,
+            876,
+            389,
+            895
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "we show that $b \\in ( 0 , 1 )$ as follows. First suppose $b = 0 ;$ then",
+        "bbox": [
+            552,
+            65,
+            920,
+            95
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a54eddb496f0293c1a5247109c5b94035c66f743620804653dfef7ed232bd052.jpg",
+        "text": "$$\n1 = \\sum _ { \\chi \\in \\hat { G } } \\lambda _ { \\chi } = \\frac { 1 } { k } \\sum _ { i = 1 } ^ { k } \\sum _ { \\chi \\in \\hat { G } } \\chi ( g _ { i } ) = \\frac { n } { k }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            603,
+            106,
+            831,
+            146
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "because $\\Sigma _ { \\chi \\in \\hat { ( \\cal G ) } } \\chi ( g _ { i } )$ equals n for $i = 1$ and 0 otherwise. However, this contradicts the hypothesis that $\\left\\{ g _ { 1 } , \\ldots , g _ { k } \\right\\}$ is not all of G. Hence $b > 0$ . Next suppose $b = 1$ , and choose $\\chi \\in \\hat { G } - \\{ \\hat { e } \\}$ with $| \\lambda _ { \\chi } | = 1$ . Since each of $\\chi ( g _ { 1 } ) , \\ldots , \\chi ( g _ { k } )$ is a complex number of norm 1, the triangle inequality forces them all to be equal. Since $\\chi ( g _ { 1 } ) = \\chi ( e ) = 1 , \\chi$ must map each of $g _ { 1 } , \\ldots , g _ { k }$ to 1, but this is impossible because $\\chi$ is a nontrivial character and $g _ { 1 } , \\ldots , g _ { k }$ form a set of generators of $G .$ This contradiction yields $b < 1$",
+        "bbox": [
+            552,
+            156,
+            920,
+            305
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Since $\\begin{array} { r } { \\nu = \\frac { 1 } { n } \\sum _ { \\chi \\in \\hat { G } } \\nu _ { \\chi } } \\end{array}$ and $M \\nu _ { \\chi } = \\lambda _ { \\chi } \\nu _ { \\chi }$ , we have",
+        "bbox": [
+            553,
+            308,
+            872,
+            328
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4300e2545e3357756d46d17934a10ab2e2776a09afe0c5024a8e3ef1dae8cb4b.jpg",
+        "text": "$$\nM ^ { m } \\nu - \\frac { 1 } { n } \\nu _ { \\hat { e } } = \\frac { 1 } { n } \\sum _ { \\chi \\in \\hat { G } - \\{ \\hat { e } \\} } \\lambda _ { \\chi } ^ { m } \\nu _ { \\chi } .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            612,
+            338,
+            821,
+            376
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Since the vectors $\\nu _ { \\chi }$ are pairwise orthogonal, the limit we are interested in can be written as",
+        "bbox": [
+            552,
+            387,
+            920,
+            417
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/db45b2cf0f5900e1a806b97c6be6955ef8b3e3dce0c648130e54cb62cfe81939.jpg",
+        "text": "$$\n\\operatorname* { l i m } _ { m  \\infty } \\frac { 1 } { b ^ { 2 m } } \\big ( M ^ { m } \\nu - \\frac { 1 } { n } \\nu _ { \\hat { e } } \\big ) \\cdot \\big ( M ^ { m } \\nu - \\frac { 1 } { n } \\nu _ { \\hat { e } } \\big ) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            589,
+            424,
+            843,
+            455
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "and then rewritten as",
+        "bbox": [
+            554,
+            464,
+            697,
+            479
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ae2132764f95e019cde80e96001462065050e6ebac9f792a4c6f3df2f3cf2629.jpg",
+        "text": "$$\n\\operatorname* { l i m } _ { m  \\infty } \\frac { 1 } { b ^ { 2 m } } \\sum _ { \\chi \\in \\hat { G } - \\{ \\hat { e } \\} } | \\lambda _ { \\chi } | ^ { 2 m } = \\# \\{ \\chi \\in \\hat { G } : | \\lambda _ { \\chi } | = b \\} .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            555,
+            487,
+            875,
+            526
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "By construction, this last quantity is nonzero and finite. Remark. It is easy to see that the result fails if we do not assume $g _ { 1 } = e { : }$ take $G = \\mathbb { Z } / 2 \\mathbb { Z } , n = 1$ , and $g _ { 1 } = 1$",
+        "bbox": [
+            552,
+            536,
+            920,
+            587
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Remark. Harm Derksen points out that a similar argument applies even if $G$ is not assumed to be abelian, provided that the operator $g _ { 1 } + \\cdots + g _ { k }$ in the group algebra $\\mathbb { Z } [ G ]$ is normal, i.e., it commutes with the operator $g _ { 1 } ^ { - 1 } + \\cdots + g _ { k } ^ { - 1 }$ . This includes the cases where the set $\\left\\{ g _ { 1 } , \\ldots , g _ { k } \\right\\}$ is closed under taking inverses and where it is a union of conjugacy classes (which in turn includes the case of G abelian).",
+        "bbox": [
+            552,
+            589,
+            920,
+            707
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Remark. The matrix M used above has nonnegative entries with row sums equal to 1 (i.e., it corresponds to a Markov chain), and there exists a positive integer m such that $M ^ { m }$ has positive entries. For any such matrix, the Perron-Frobenius theorem implies that the sequence of vectors $M ^ { m } \\nu$ converges to a limit w, and there exists $b \\in [ 0 , 1 )$ such that",
+        "bbox": [
+            552,
+            710,
+            921,
+            815
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/50f48b18d87d604cff23470132c974b4dd4ce59856705dd3b8e39433266cbd2a.jpg",
+        "text": "$$\n\\operatorname* { l i m } _ { m \\to \\infty } \\operatorname* { s u p } _ { b ^ { 2 m } } \\sum _ { i = 1 } ^ { n } ( ( M ^ { m } \\nu - w ) _ { i } ) ^ { 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            617,
+            825,
+            816,
+            860
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "is nonzero and finite. (The intended interpretation in case $b = 0$ is that $M ^ { m } \\nu = \\nu$ for all large m.) However, the limit need not exist in general.",
+        "bbox": [
+            552,
+            870,
+            920,
+            915
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            907,
+            34,
+            920,
+            46
+        ],
+        "page_idx": 0
+    }
+]
