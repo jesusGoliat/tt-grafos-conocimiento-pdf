@@ -212,7 +212,7 @@ página pasa de 12.31 % a 173 %.
 | OE-01 | CER global | 7.56 % (42 páginas) |
 | OE-02 | F1 estricto con tipo en Re-DocRED | 23.62 ± 2.01 (N=10) y 31.34 ± 0.71 (N=50) |
 | OE-03 | ΔF1 del juez LLM y del autoentrenamiento | +2.23, +2.07 y +2.42; 5/5 subconjuntos |
-| OE-06 | Pruebas automatizadas y criterios de aceptación | 30/30 y 4/4 |
+| OE-06 | Pruebas automatizadas y criterios de aceptación | 31/31 y 4/4 |
 
 Las pruebas se ejecutan sin red ni token:
 

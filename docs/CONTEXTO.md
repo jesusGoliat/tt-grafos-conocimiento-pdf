@@ -69,7 +69,7 @@ integran en TT II.
 | F1 estricto con tipo, N = 50 | 31.34 ± 0.71 (B0) · 33.41 ± 0.15 (J0) | ídem |
 | ΔF1 del juez LLM | +2.23 (N = 10) · +2.07 (N = 50), 5/5 subconjuntos | ídem |
 | ΔF1 del autoentrenamiento | +2.42, 5/5 subconjuntos | ídem |
-| Pruebas automatizadas | 30/30 y 4/4 criterios de aceptación | `backend/tests/` |
+| Pruebas automatizadas | 31/31 y 4/4 criterios de aceptación | `backend/tests/` |
 
 ## Qué no reintroducir
 
