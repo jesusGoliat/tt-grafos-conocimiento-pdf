@@ -43,6 +43,7 @@ function download(filename: string, content: string, type: string) {
 
 export function ResultViewer({ result }: { result: ExtractionResult }) {
   const [tab, setTab] = useState<Tab>('rendered')
+  const [comparing, setComparing] = useState(false)
   const base = result.filename.replace(/\.pdf$/i, '')
   const json = JSON.stringify(result.content_list, null, 2)
   const blockTypes = Object.entries(result.stats.blocks_by_type).sort((a, b) => b[1] - a[1])
@@ -53,13 +54,16 @@ export function ResultViewer({ result }: { result: ExtractionResult }) {
     defaultUrlTransform(url.startsWith('images/') ? `${result.assets_base_url}${url}` : url)
 
   return (
-    <section className="card result">
+    <section className={`card result${comparing ? ' comparing' : ''}`}>
       <div className="result-header">
         <div>
           <p className="eyebrow">Resultado</p>
           <h2>{result.filename}</h2>
         </div>
         <div className="actions">
+          <button aria-pressed={comparing} onClick={() => setComparing(!comparing)}>
+            {comparing ? 'Ocultar PDF' : 'Comparar con el PDF'}
+          </button>
           <button onClick={() => download(`${base}.md`, result.markdown, 'text/markdown')}>Descargar .md</button>
           <button onClick={() => download(`${base}.json`, json, 'application/json')}>Descargar .json</button>
         </div>
@@ -72,37 +76,49 @@ export function ResultViewer({ result }: { result: ExtractionResult }) {
         ))}
       </div>
 
-      {tab === 'rendered' && (
-        <article className="markdown-body">
-          <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, [rehypeSanitize, schema]]} urlTransform={urlTransform}>
-            {result.markdown}
-          </Markdown>
-        </article>
-      )}
-      {tab === 'markdown' && <pre className="code">{result.markdown}</pre>}
-      {tab === 'json' && <pre className="code">{json}</pre>}
-      {tab === 'stats' && (
-        <div className="stats">
-          <dl>
-            <div><dt>Páginas</dt><dd>{result.stats.pages}</dd></div>
-            <div><dt>Bloques</dt><dd>{result.stats.blocks_total}</dd></div>
-            <div><dt>Palabras</dt><dd>{result.stats.words.toLocaleString('es-MX')}</dd></div>
-            <div><dt>Caracteres</dt><dd>{result.stats.characters.toLocaleString('es-MX')}</dd></div>
-          </dl>
-          <h3>Bloques por tipo</h3>
-          <ul className="block-bars">
-            {blockTypes.map(([type, count]) => (
-              <li key={type}>
-                <span className="block-label">{BLOCK_LABELS[type] ?? type}</span>
-                <span className="block-track">
-                  <span style={{ width: `${(count / maxCount) * 100}%` }} />
-                </span>
-                <span className="block-count">{count}</span>
-              </li>
-            ))}
-          </ul>
+      <div className={comparing ? 'compare' : undefined}>
+        {comparing && (
+          <div className="pdf-pane">
+            <iframe src={`${result.pdf_url}#view=FitH&navpanes=0`} title={`PDF original: ${result.filename}`} />
+            <a href={result.pdf_url} target="_blank" rel="noreferrer">
+              Abrir el PDF en otra pestaña
+            </a>
+          </div>
+        )}
+        <div className="result-pane">
+          {tab === 'rendered' && (
+            <article className="markdown-body">
+              <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, [rehypeSanitize, schema]]} urlTransform={urlTransform}>
+                {result.markdown}
+              </Markdown>
+            </article>
+          )}
+          {tab === 'markdown' && <pre className="code">{result.markdown}</pre>}
+          {tab === 'json' && <pre className="code">{json}</pre>}
+          {tab === 'stats' && (
+            <div className="stats">
+              <dl>
+                <div><dt>Páginas</dt><dd>{result.stats.pages}</dd></div>
+                <div><dt>Bloques</dt><dd>{result.stats.blocks_total}</dd></div>
+                <div><dt>Palabras</dt><dd>{result.stats.words.toLocaleString('es-MX')}</dd></div>
+                <div><dt>Caracteres</dt><dd>{result.stats.characters.toLocaleString('es-MX')}</dd></div>
+              </dl>
+              <h3>Bloques por tipo</h3>
+              <ul className="block-bars">
+                {blockTypes.map(([type, count]) => (
+                  <li key={type}>
+                    <span className="block-label">{BLOCK_LABELS[type] ?? type}</span>
+                    <span className="block-track">
+                      <span style={{ width: `${(count / maxCount) * 100}%` }} />
+                    </span>
+                    <span className="block-count">{count}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
-      )}
+      </div>
     </section>
   )
 }

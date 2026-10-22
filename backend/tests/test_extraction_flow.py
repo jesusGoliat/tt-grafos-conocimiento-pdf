@@ -55,6 +55,11 @@ def test_full_flow(client, pdf_bytes):
     image = client.get(f"{result['assets_base_url']}images/fig.jpg")
     assert image.status_code == 200 and image.content.startswith(b"\xff\xd8")
 
+    pdf = client.get(result["pdf_url"])
+    assert pdf.status_code == 200 and pdf.content == pdf_bytes
+    assert pdf.headers["content-type"] == "application/pdf"
+    assert pdf.headers["content-disposition"].startswith("inline")
+
     listing = client.get("/api/documents").json()
     assert [d["id"] for d in listing] == [doc["id"]]
 

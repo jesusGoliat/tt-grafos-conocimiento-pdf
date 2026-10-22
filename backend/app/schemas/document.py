@@ -35,6 +35,7 @@ class ExtractionResult(BaseModel):
     content_list: list[dict[str, Any]]
     stats: ExtractionStats
     assets_base_url: str
+    pdf_url: str
 
 
 class HealthStatus(BaseModel):

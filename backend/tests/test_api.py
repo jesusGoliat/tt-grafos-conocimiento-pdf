@@ -47,6 +47,13 @@ def test_asset_path_traversal(client):
         assert client.get(f"/api/documents/abc123/assets/{path}").status_code == 404
 
 
+def test_pdf_missing(client):
+    store: JobStore = client.app.state.store
+    store.save(Job(id="abc123", filename="a.pdf", size_bytes=1, pages=1, status=JobStatus.DONE))
+    assert client.get("/api/documents/abc123/pdf").status_code == 404
+    assert client.get("/api/documents/noexiste/pdf").status_code == 404
+
+
 def test_interrupted_jobs_marked_failed(settings):
     from fastapi.testclient import TestClient
 

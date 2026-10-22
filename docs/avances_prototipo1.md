@@ -92,8 +92,9 @@ Si el servidor se reinicia con extracciones a medias, al arrancar se marcan como
 | `POST` | `/api/documents` | `202` con `DocumentStatus`; `422` si el archivo no es válido; `413` si es demasiado grande |
 | `GET` | `/api/documents` | Lista de `DocumentStatus` |
 | `GET` | `/api/documents/{id}` | `DocumentStatus` (`status`, `progress.extracted_pages/total_pages/remote_state`, `error`); `404` si no existe |
-| `GET` | `/api/documents/{id}/result` | `{markdown, content_list, stats, assets_base_url}`; `409` si no ha terminado o falló |
+| `GET` | `/api/documents/{id}/result` | `{markdown, content_list, stats, assets_base_url, pdf_url}`; `409` si no ha terminado o falló |
 | `GET` | `/api/documents/{id}/assets/images/…` | Imagen extraída; solo sirve archivos dentro de `images/` |
+| `GET` | `/api/documents/{id}/pdf` | PDF original con `Content-Disposition: inline`, para la vista de comparación; `404` si no existe |
 | `GET` | `/api/health` | `{status, mineru_token_configured, mineru_model_version}` |
 
 La documentación interactiva está en `http://localhost:8001/docs`.

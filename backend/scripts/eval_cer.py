@@ -2,6 +2,10 @@
 
     CER = (S + D + I) / N    (distancia de Levenshtein entre caracteres / longitud de la referencia)
 
+La comparación usa el cuerpo, los títulos, las listas, el código y las captions/notas
+de tablas y figuras; excluye tablas, ecuaciones aisladas y encabezados/pies/números
+de página (véase blocks_text).
+
 Uso (desde backend/):
     # Contra una transcripción manual de la página 1 (recomendado para la evaluación formal)
     python scripts/eval_cer.py data/results/<id> --page 1 --ref referencia_p1.txt
@@ -22,7 +26,11 @@ from pathlib import Path
 
 
 def normalize(text: str) -> str:
-    """Quita marcas de Markdown/HTML/LaTeX y normaliza Unicode y espacios para comparar solo el contenido."""
+    """Quita etiquetas HTML, imágenes Markdown y algunos caracteres de marcado; normaliza Unicode y espacios.
+
+    Conserva los nombres de los comandos y las llaves de LaTeX, por lo que las
+    diferencias de notación matemática siguen contando como error.
+    """
     text = html.unescape(re.sub(r"<[^>]+>", " ", text))
     text = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", text)
     text = re.sub(r"[#*_`|>$\\]", " ", text)
@@ -47,19 +55,42 @@ def cer(hypothesis: str, reference: str) -> float:
     return levenshtein(hypothesis, reference) / max(len(reference), 1)
 
 
+# Captions y notas que tienen contraparte en la referencia de OmniDocBench.
+# En OmniDocBench un gráfico se anota como figure; MinerU lo emite como chart,
+# por eso chart_caption/chart_footnote también se incluyen.
+CAPTION_KEYS = ("table_caption", "table_footnote", "image_caption", "image_footnote",
+                "chart_caption", "chart_footnote")
+
+
+def blocks_text(blocks: list[dict]) -> str:
+    """Texto comparable de una lista de bloques de content_list.json.
+
+    Incluye cuerpo, títulos (type "text" con text_level), listas, código y las
+    captions/notas de tablas, figuras y gráficos. Excluye tablas, ecuaciones
+    aisladas y encabezados/pies/números de página, que no forman parte de la
+    referencia de esta muestra.
+    """
+    parts = []
+    for block in blocks:
+        kind = block.get("type")
+        if kind == "text":
+            parts.append(block.get("text") or "")
+        elif kind == "list":
+            items = block.get("list_items") or []
+            parts.extend(items if isinstance(items, list) else [str(items)])
+        elif kind == "code":
+            parts.append(block.get("code_body") or "")
+        for key in CAPTION_KEYS:
+            parts.extend(block.get(key) or [])
+    return "\n".join(parts)
+
+
 def extracted_text(result_dir: Path, page: int | None) -> str:
     """Texto extraído: por página desde content_list.json, o el documento completo desde document.md."""
     if page is None:
         return (result_dir / "document.md").read_text(encoding="utf-8")
     blocks = json.loads((result_dir / "content_list.json").read_text(encoding="utf-8"))
-    parts = []
-    for block in blocks:
-        if block.get("page_idx") != page - 1:
-            continue
-        parts.append(block.get("text") or block.get("table_body") or "")
-        parts.extend(block.get("table_caption") or [])
-        parts.extend(block.get("image_caption") or [])
-    return "\n".join(parts)
+    return blocks_text([b for b in blocks if b.get("page_idx") == page - 1])
 
 
 def pdf_text(pdf_path: Path, page: int | None) -> str:

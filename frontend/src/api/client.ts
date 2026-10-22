@@ -23,7 +23,7 @@ async function request<T>(path: string): Promise<T> {
   try {
     response = await fetch(`${BASE}${path}`)
   } catch {
-    throw new ApiError(0, 'network', 'No se pudo conectar con el backend. ¿Está corriendo en el puerto 8000?')
+    throw new ApiError(0, 'network', 'No se pudo conectar con el backend. ¿Está corriendo? (por defecto en el puerto 8001)')
   }
   const body = await response.json().catch(() => null)
   if (!response.ok) throw toApiError(response.status, body)
@@ -49,7 +49,7 @@ export function uploadDocument(file: File, onProgress: (fraction: number) => voi
       else reject(toApiError(xhr.status, xhr.response))
     }
     xhr.onerror = () =>
-      reject(new ApiError(0, 'network', 'No se pudo conectar con el backend. ¿Está corriendo en el puerto 8000?'))
+      reject(new ApiError(0, 'network', 'No se pudo conectar con el backend. ¿Está corriendo? (por defecto en el puerto 8001)'))
     const form = new FormData()
     form.append('file', file)
     xhr.send(form)

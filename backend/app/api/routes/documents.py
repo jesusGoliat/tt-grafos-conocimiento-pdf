@@ -83,7 +83,18 @@ async def get_result(request: Request, job_id: str):
         content_list=content_list,
         stats=ExtractionStats(**compute_stats(markdown, content_list, job.pages)),
         assets_base_url=f"/api/documents/{job.id}/assets/",
+        pdf_url=f"/api/documents/{job.id}/pdf",
     )
+
+
+@router.get("/{job_id}/pdf")
+async def get_pdf(request: Request, job_id: str):
+    """Sirve el PDF original para mostrarlo junto al resultado de la extracción."""
+    job = _get_job(request, job_id)
+    path = _store(request).pdf_path(job_id)
+    if not path.is_file():
+        raise NotFoundError("El PDF original ya no está disponible.")
+    return FileResponse(path, media_type="application/pdf", filename=job.filename, content_disposition_type="inline")
 
 
 @router.get("/{job_id}/assets/{asset_path:path}")

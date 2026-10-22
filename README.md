@@ -44,7 +44,7 @@ cd frontend
 npm run dev
 ```
 
-Abre http://localhost:5173, arrastra un PDF (por ejemplo `samples/2027-A038.pdf`) y pulsa **Extraer contenido**. La interfaz muestra el avance (subida → envío a MinerU → extracción página por página → listo) y después el resultado en cuatro pestañas: vista renderizada, Markdown, JSON estructurado y estadísticas. Ambos formatos se pueden descargar.
+Abre http://localhost:5173, arrastra un PDF (por ejemplo `samples/2027-A038.pdf`) y pulsa **Extraer contenido**. La interfaz muestra el avance (subida → envío a MinerU → extracción página por página → listo) y después el resultado en cuatro pestañas: vista renderizada, Markdown, JSON estructurado y estadísticas. Ambos formatos se pueden descargar. Con **Comparar con el PDF** el documento original se muestra junto al resultado.
 
 > El servidor de Vite redirige `/api` a `http://localhost:8001`. Si el backend corre en otro puerto, usa `BACKEND_URL=http://localhost:XXXX npm run dev`.
 
@@ -70,6 +70,7 @@ Abre http://localhost:5173, arrastra un PDF (por ejemplo `samples/2027-A038.pdf`
 | `GET` | `/api/documents/{id}` | Estado: `queued`, `uploading`, `processing`, `done`, `failed`, con avance y error |
 | `GET` | `/api/documents/{id}/result` | `markdown`, `content_list` (JSON) y `stats`. Responde `409` si aún no termina |
 | `GET` | `/api/documents/{id}/assets/images/...` | Imágenes extraídas |
+| `GET` | `/api/documents/{id}/pdf` | PDF original (`inline`), para compararlo con el resultado |
 | `GET` | `/api/health` | Estado del servicio y si hay token configurado |
 
 Los errores siguen siempre el formato `{"error": {"code": "...", "message": "..."}}`.

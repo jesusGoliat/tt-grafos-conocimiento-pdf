@@ -42,6 +42,7 @@ export interface ExtractionResult {
   content_list: ContentBlock[]
   stats: ExtractionStats
   assets_base_url: string
+  pdf_url: string
 }
 
 export interface Health {

@@ -9,3 +9,5 @@ frontend/dist/
 /2027-A038.pdf
 .env
 *.tsbuildinfo
+# Salidas de la evaluación del CER: páginas de OmniDocBench (licencia solo para investigación); se regeneran con scripts/omnidocbench/
+backend/scripts/omnidocbench/resultados_cer_*/
