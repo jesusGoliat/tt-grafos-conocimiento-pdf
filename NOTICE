@@ -1,0 +1,52 @@
+# Aviso sobre licencias y procedencia
+
+El archivo `LICENSE` (MIT) cubre **únicamente el código original** de este
+repositorio. Los materiales de terceros que contiene o de los que derivan sus
+resultados quedan sujetos a sus propias condiciones, que se describen aquí.
+
+## 1. Artefactos de la evaluación del CER
+
+Ruta: `backend/scripts/omnidocbench/resultados_cer_2026-10-22/`
+
+Contienen texto derivado de **OmniDocBench** (OpenDataLab, 2025): las referencias
+`*.ref.txt` son texto anotado del conjunto y los `content_list.json` son la salida
+de MinerU sobre páginas de ese mismo conjunto.
+
+- El código de OmniDocBench se distribuye bajo licencia Apache-2.0, pero **los datos
+  tienen condiciones propias y más restrictivas**: están destinados únicamente a
+  investigación y no a uso comercial. No se concede permiso expreso para
+  redistribuir los archivos del conjunto.
+- Por esa razón **no se incluyen en este repositorio los 42 PDF de página**
+  (`pdfs/`) ni las imágenes extraídas: se generan localmente y no se distribuyen.
+- Repositorio del conjunto: <https://github.com/opendatalab/OmniDocBench>
+- Contacto de derechos: <OpenDataLab@pjlab.org.cn>
+
+Si se reutilizan estos artefactos, debe citarse OmniDocBench y respetarse su destino
+exclusivamente de investigación.
+
+## 2. Extracción de texto
+
+El sistema usa la API de **MinerU** (<https://mineru.net>). Su uso se rige por los
+términos del servicio del proveedor. Este repositorio no incluye credenciales ni
+distribuye el servicio.
+
+## 3. Prototipo 2
+
+La implementación y la evaluación del Prototipo 2 **no forman parte de este
+repositorio**. Están en:
+
+<https://github.com/jesusGoliat/gliner-relex-docre-benchmark>
+
+Ese repositorio evalúa **GLiNER-Relex** sobre **Re-DocRED**. Las condiciones de uso
+de ambos recursos son las de sus proyectos de origen y deben consultarse allí.
+
+## 4. Documento de ejemplo
+
+`samples/2027-A038.pdf` es un documento de ejemplo empleado por las pruebas y por el
+README. **No está cubierto por la licencia MIT** y se incluye únicamente con fines
+de demostración y verificación.
+
+## 5. Marcas y nombres
+
+Los nombres de productos y proyectos citados pertenecen a sus respectivos
+titulares y se usan solo con fines descriptivos.

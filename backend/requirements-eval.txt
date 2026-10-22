@@ -1,0 +1,7 @@
+# Dependencias adicionales para regenerar la figura del CER.
+# Solo las necesita grafica_cer.py; el cálculo de las métricas
+# (score.py, aggregate.py) usa únicamente la biblioteca estándar.
+#
+#   pip install -r requirements-eval.txt
+
+matplotlib>=3.8
