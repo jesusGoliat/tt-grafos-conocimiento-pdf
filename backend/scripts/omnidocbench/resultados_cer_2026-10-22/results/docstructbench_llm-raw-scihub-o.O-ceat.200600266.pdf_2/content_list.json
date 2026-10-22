@@ -1,0 +1,280 @@
+[
+    {
+        "type": "text",
+        "text": "chemical reaction on the sides of electrode, resulting in corrosion. It was concluded that pulse direct current field might reduce some of disadvantages mentioned above. However, the use of appending pulse direct current electric field in MBR has not been reported in the literature to date. In order to stabilize membrane flux and slow down membrane fouling, a new style MBR with the ability to control membrane fouling was built, in order to investigate the influence of pulse direct-current field on membrane flux in the presence of appending pulse direct-current field.",
+        "bbox": [
+            63,
+            86,
+            457,
+            225
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2 Experimental Setup and Sewage Properties",
+        "text_level": 2,
+        "bbox": [
+            65,
+            248,
+            379,
+            282
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.1 Experimental Setup",
+        "text_level": 2,
+        "bbox": [
+            65,
+            295,
+            247,
+            312
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The reactor was made of plastic with dimensions of 40 × 30 × 42 cm. The effective volume was 40.5 L. The reactor was partitioned into two compartments by a clapboard, with one compartment twice the size of the other. A tubular aerator was fitted at the top of the pool level so that aerobic and anoxic biofilms could be formed in the upper and lower parts, respectively.The hollow fiber membrane assembly was fitted in the other pool. A small perforated pipe aerator was fitted under the membrane assembly. The clapboard height was lower than the waterline to ensure water flowed from the bigger compartment into the smaller, so that membrane fouling could be alleviated. The bioreactor is shown in Fig. 1.",
+        "bbox": [
+            65,
+            323,
+            457,
+            488
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The polypropylene hollow fibrous membrane assembly was purchased fromZheda Kaihua Technical Co. Ltd. The inner and outer diameters of the membrane are 0.32 and 0.47 mm, respectively. The area of the membrane assembly was 4 m². The length and height of the membrane were 24 cm and 22.5 cm, respectively.",
+        "bbox": [
+            65,
+            488,
+            455,
+            571
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Activated sludge was taken from Wuhan Shahu Sewage Treatment Plant. The initial incubation concentration was 4.5 g/L. The MBR began to operate formally after the active sludge was cultured for 7 days. No sludge was discharged during experiments under normal conditions.",
+        "bbox": [
+            65,
+            571,
+            455,
+            642
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/44ef6ead8aacd60d3618893dc9b9a99bbb7c558098879a1433dcd7a95579f547.jpg",
+        "image_caption": [
+            "Figure 1. Schematic of the new style membrane bioreactor after applying the appending direct pulse current field."
+        ],
+        "image_footnote": [],
+        "bbox": [
+            67,
+            656,
+            450,
+            866
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Hydraulic retention time was set to 8 h. The effluent was pumped under an operating pressure of $\\Delta P = 0 . 1$ MPa. The initial effluent flow was 36.7 L/m²h.",
+        "bbox": [
+            494,
+            86,
+            885,
+            127
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The electrode was made of stainless steel with many small, evenly distributed holes. The distance between the electrode plates was 5 cm. The membrane assembly and the electrode plates were bound together. The adjustable power regulator ST-DRPS1000F was purchased from Hangzhou Supertech Electronic Technology Corp. Ltd. (Hangzhou, China).",
+        "bbox": [
+            494,
+            127,
+            885,
+            211
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "XHPLC-28MR Programmable logical control was obtained from Changzhou Xionghua Automation Equipment Co. Ltd. (Changzhou, China).",
+        "bbox": [
+            494,
+            210,
+            884,
+            253
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.2 Sewage Properties",
+        "text_level": 2,
+        "bbox": [
+            495,
+            279,
+            668,
+            294
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sewage water was taken from a septic tank at residential building No. 2 situated in the northern part of a university in Wuhan, China. The water quality is shown in Tab. 1.",
+        "bbox": [
+            494,
+            306,
+            882,
+            348
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/f3ff4b6764dfff2e4445053a2a54f5920c5993e1ce549ba2b4364b7e2d0487d7.jpg",
+        "table_caption": [
+            "Table 1. Water quality in the experiments."
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td> $\\mathrm { C O D } _ { \\mathrm { c r } }$ </td><td>pH</td><td>Turbidity</td><td>SS</td><td>ζ-potential</td><td>Water Temperature</td></tr><tr><td>(mg/L)</td><td></td><td>(NTU)</td><td>(mg/L)</td><td>(mV)</td><td>(°C)</td></tr><tr><td>310-740</td><td>5-8</td><td>100-500</td><td>400-800</td><td>-18.4--22.6</td><td>15-25</td></tr></table>",
+        "bbox": [
+            495,
+            382,
+            882,
+            445
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3 Results and Discussion",
+        "text_level": 2,
+        "bbox": [
+            495,
+            482,
+            736,
+            498
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3.1 Influence of Pulse Direct Current Electric Field on Membrane Flux in the MBR",
+        "text_level": 2,
+        "bbox": [
+            495,
+            511,
+            862,
+            542
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In order to research the effect of the pulse direct current field on membrane flux, the change in membrane flux was measured at three different electric fields: 20 V/cm steady direct current field, 20 V/cm electric field with 10 s pulse duration, 30 min pulse interval, and no appending electric field. These were controlled respectively in the MBR. The results are shown in Fig. 2. It can be seen from Fig. 2 that the average membrane flux in pulsed direct current field varies between the values for membrane flux in continuous direct current field and no electric field, under the same electric field strength.",
+        "bbox": [
+            494,
+            555,
+            885,
+            692
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The membrane flux in Fig. 2, curve (c) drops continuously with time during the complete operation.This could be caused by the continuous sedimentation of minute particles on the membrane surface, which clogged pores of the membrane.",
+        "bbox": [
+            494,
+            692,
+            885,
+            748
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The membrane flux in Fig. 2, curve (a) becomes stable after a transit reduction with an increase of operation time under 20 V/cm appending steady electric field strength. Its average membrane flux was the highest of all experiments carried out.",
+        "bbox": [
+            494,
+            748,
+            885,
+            803
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "It can be seen from Fig. 2, curve (b) that the membrane flux increases immediately after the application of an electric pulse. The rate of reduction of the average membrane flux is lower than that found with no electric field. This suggests that the application of pulsed electric field in MBRs is an effective method for resisting the deposition of particles on the membrane surface, cleaning the filter cake, and reducing membrane",
+        "bbox": [
+            494,
+            803,
+            885,
+            901
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Chem. Eng. Technol. 2007, 30, No. 9, 1262–1265",
+        "bbox": [
+            67,
+            60,
+            336,
+            74
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Membrane bioreactor",
+        "bbox": [
+            695,
+            61,
+            821,
+            74
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1263",
+        "bbox": [
+            852,
+            61,
+            882,
+            73
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "http://www.cet-journal.com",
+        "bbox": [
+            721,
+            930,
+            878,
+            944
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "©2007 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim",
+        "bbox": [
+            72,
+            930,
+            396,
+            944
+        ],
+        "page_idx": 0
+    }
+]

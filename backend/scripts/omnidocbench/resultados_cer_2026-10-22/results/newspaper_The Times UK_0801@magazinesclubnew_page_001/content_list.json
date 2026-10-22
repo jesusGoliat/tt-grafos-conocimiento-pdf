@@ -1,0 +1,576 @@
+[
+    {
+        "type": "image",
+        "img_path": "images/5f57914d254000a5fbbbabc5c79c461902a6d820ea9192b1fd3e587305651ae7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            33,
+            106,
+            192,
+            236
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/f864cc89c95f14585265c4b899457e5233f743681d5f26f824d269631bc44de0.jpg",
+        "image_caption": [],
+        "image_footnote": [
+            "Wednesday January 8 2025I thetimes.com I No 74612"
+        ],
+        "bbox": [
+            320,
+            38,
+            578,
+            110
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inside the mind of Elon Musk",
+        "bbox": [
+            189,
+            134,
+            623,
+            228
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "INSIDE TIMES2",
+        "bbox": [
+            603,
+            202,
+            666,
+            232
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "£2.80 £2.00 to subscribers (based on a 7 Day Print and Digital Subscription)",
+        "bbox": [
+            806,
+            111,
+            968,
+            128
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "How Claudia made capes super cool",
+        "bbox": [
+            756,
+            136,
+            957,
+            225
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Defence firms skip careers fairs over fears of student protests",
+        "text_level": 1,
+        "bbox": [
+            33,
+            241,
+            967,
+            268
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Larisa Brown Defence Editor",
+        "bbox": [
+            32,
+            281,
+            163,
+            290
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Defence companies have stopped attending university careers fairs and events because of security fears over protesters, affecting recruitment at a time of heightened global threats.",
+        "bbox": [
+            31,
+            296,
+            212,
+            340
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Firms making weapons for the Ministry of Defence and for export have been effectively excluded from attending events on campus at some universities, or forced to cancel them themselves, raising concerns that national security could be put at risk as a result of a skills shortage in vital industries.",
+        "bbox": [
+            31,
+            340,
+            212,
+            367
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            220,
+            278,
+            402,
+            332
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Employees of some firms, including younger members of staff acting as Stem (science, technology, engineering and maths) ambassadors, have been intimidated and harassed by protesters when on campuses, insiders claimed.",
+        "bbox": [
+            221,
+            331,
+            402,
+            368
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            410,
+            277,
+            591,
+            297
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In recent months, some 20 defence companies are believed to have been advised against attending careers fairs and university events because of security and safety fears, or decided to cancel them amid pressure, according to Kevin Craven, chief executive of the ADS group, which represents defence, aerospace and security companies. Those that did attend faced intimidation and harassment, he said.",
+        "bbox": [
+            409,
+            297,
+            591,
+            368
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            598,
+            277,
+            779,
+            305
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Leonardo UK, a defence firm that supplies equipment to the MoD, accused some universities of \"self-censoring\", which its chief executive warned could affect Britain's security.",
+        "bbox": [
+            598,
+            305,
+            780,
+            349
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Industry sources said there had been greater hostility since the Israel-Gaza war began in October 2023, and companies had been investing tens of thousands of pounds to protect their staff.",
+        "bbox": [
+            599,
+            349,
+            780,
+            367
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            787,
+            277,
+            969,
+            305
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "\"Activism against defence organisations has always been present, but the level of destruction we're now seeing is concerning — primarily for our people,\" one industry source said.",
+        "bbox": [
+            788,
+            305,
+            969,
+            350
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Amid growing concern at the scale of Continued on page 2",
+        "bbox": [
+            788,
+            349,
+            969,
+            367
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/91f6557ae955f51a4c2396a3cd248c353c8cc28df5d16de21795172517c9f257.jpg",
+        "image_caption": [],
+        "image_footnote": [
+            "Peak perfection While snow caused chaos around the country, it created a more scenic picture on the Eildon Hills in the Scottish Borders. Weather warning, page 13"
+        ],
+        "bbox": [
+            34,
+            383,
+            778,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Patients to face two-day waits at A&E in flu crisis",
+        "text_level": 1,
+        "bbox": [
+            30,
+            706,
+            778,
+            812
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Health secretary admits ‘shame' as doctors warn of unsafe care",
+        "bbox": [
+            31,
+            823,
+            514,
+            837
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Poppy Koronka Health Correspondent",
+        "bbox": [
+            31,
+            851,
+            207,
+            860
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Patients have been warned of two-day waits in A&E as nine hospitals around the country declared critical incidents and the NHS struggled to cope with the winter flu crisis.",
+        "bbox": [
+            31,
+            865,
+            212,
+            910
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Senior doctors warned of \"unsafe and unacceptable care\" that was likely to cost lives, while hospitals blamed exceptionally high demand at the busiest time of year.",
+        "bbox": [
+            31,
+            909,
+            212,
+            954
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Wes Streeting, the health secretary, said he was \"ashamed” of the plight of patients languishing in corridors but warned that significant improvements in care would not happen until next winter.",
+        "bbox": [
+            31,
+            954,
+            212,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            221,
+            848,
+            402,
+            884
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "NHS bosses said flu cases had \"skyrocketed\" to about 5,000 a day, and Sir Keir Starmer is facing questions about his decision to prioritise routine operations in a week when A&E units are struggling to cope.",
+        "bbox": [
+            220,
+            883,
+            402,
+            937
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Nine hospitals across five trusts in England have declared critical incidents in the past week, with all referencing flu, infectious diseases or winter pressures as contributing factors. Professor Sir Stephen Powis, the national medical director for NHS England, cited a\"quad-demic\"ofillness as outbreaks of flu, Covid, norovirus and RSV add to pressure on hospitals.",
+        "bbox": [
+            220,
+            937,
+            402,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            409,
+            848,
+            591,
+            902
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "RSV, respiratory syncytial virus, has symptoms similar to the common cold but can lead to more serious lung conditions and breathing problems.",
+        "bbox": [
+            410,
+            901,
+            591,
+            937
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "\"Frontline NHS staff are under significant pressure and the demand is showing no signs of letting up, with latest data showing flu cases skyrocketed to around 5,000 a day in hospitals at the end of last year and multiple trusts across the country declaring incidents to help them to manage additional strain on services,\" Powis said.",
+        "bbox": [
+            409,
+            937,
+            591,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            598,
+            847,
+            780,
+            893
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Flu appears to be particularly bad this year, with the latest data showing that cases were nearly 3.5 times higher than the same week last year. However, others pointed out that the number of flu cases was similar two years ago.",
+        "bbox": [
+            598,
+            892,
+            781,
+            946
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "PHIL WILKINSON",
+        "bbox": [
+            739,
+            378,
+            779,
+            385
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Adrian Boyle, the president of the Royal College of Emergency Medicine, Continued on page 2",
+        "bbox": [
+            598,
+            945,
+            780,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Schools bill 'is an act of vandalism', blast Tories",
+        "text_level": 1,
+        "bbox": [
+            788,
+            381,
+            939,
+            485
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Nicola Woolcock Education Editor Oliver Wright Policy Editor",
+        "bbox": [
+            788,
+            500,
+            943,
+            519
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The new schools bill is “pure vandalism\" that will rip up academy freedoms that have resulted in excellence and lead to micromanagement, the Conservatives have said.",
+        "bbox": [
+            787,
+            523,
+            968,
+            568
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "All schools will have to follow the national curriculum under the new Children's Wellbeing and Schools Bill which has its second reading today. The government says the bill will protect vulnerable children by creating a home education register and unique identifying number, to make it easier to protect pupils who disappear from the system.",
+        "bbox": [
+            787,
+            568,
+            969,
+            648
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "However, academy heads say the changes, which could also impose national pay scales on all state schools, would threaten their ability to attract good staff.",
+        "bbox": [
+            787,
+            647,
+            968,
+            691
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "More than half of all schools are now academies — state schools currently free from local authority control. The movement began under Tony Blair's government but was expanded widely under Michael Gove.",
+        "bbox": [
+            787,
+            691,
+            969,
+            744
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Forcing all schools including academies to follow the national curriculum, which is undergoing a review led by Professor Becky Francis, would jeopardise standards, the Tories claim.",
+        "bbox": [
+            788,
+            743,
+            969,
+            787
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Neil O'Brien, the shadow schools minister, said the bill was \"one of the most dumb and tragic things I can remember. It's an act of pure vandalism, abolishing academies in all but name.'",
+        "bbox": [
+            787,
+            787,
+            969,
+            832
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "He added: \"Instead of paying more to hire and retain good teachers, the landscape will be squashed flat. The best and those who do more will get paid the same as the average, and more of the best teachers will leave the profession.\"",
+        "bbox": [
+            787,
+            831,
+            969,
+            885
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Schools would no longer be allowed to employ teachers without qualified teacher status. This would affect about 13,600 existing staff, more than twice as many as the 6,500 that the government has said it will recruit, he said.",
+        "bbox": [
+            787,
+            884,
+            969,
+            937
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "O'Brien added: \"The freedom to vary from the national curriculum promotes genuine diversity in our schools. Not all Continued on page 8",
+        "bbox": [
+            788,
+            937,
+            969,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DAILY NEWSPAPER OF THE YEAR",
+        "bbox": [
+            333,
+            25,
+            568,
+            33
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "THE",
+        "bbox": [
+            53,
+            39,
+            309,
+            108
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "TIMES",
+        "bbox": [
+            578,
+            39,
+            951,
+            108
+        ],
+        "page_idx": 0
+    }
+]

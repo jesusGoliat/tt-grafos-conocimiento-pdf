@@ -1,0 +1,43 @@
+id,data_source,layout,ref_chars,hyp_chars,dist,cer,ref_math_spans,math_density,source
+scihub_iccwamtip51612.2020.9317329.pdf_4,academic_literature,1andmore_column,3730,3763,94,0.02520107238605898,0,0.0,new
+docstructbench_llm-raw-scihub-o.O-ijc.22999.pdf_3,academic_literature,other_layout,3435,3350,258,0.07510917030567686,24,6.986899563318778,new
+docstructbench_llm-raw-scihub-o.O-ceat.200600266.pdf_2,academic_literature,double_column,4591,4527,81,0.017643214985841864,4,0.8712698758440427,new
+scihub_s00784-003-0233-4.pdf_1,academic_literature,1andmore_column,3353,3357,92,0.027438115120787355,0,0.0,new
+docstructbench_llm-raw-scihub-o.O-s00348-003-0689-7.pdf_3,academic_literature,other_layout,2346,2201,154,0.06564364876385337,3,1.278772378516624,new
+docstructbench_llm-raw-scihub-o.O-j.snb.2004.06.022.pdf_2,academic_literature,other_layout,1121,1122,8,0.007136485280999108,0,0.0,new
+book_en_国外数学教材-数论-Melvyn B. Nathanson—Elementary Methods in Number Theory_0242,book,single_column,674,733,83,0.12314540059347182,16,23.73887240356083,new
+"book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0119",book,single_column,2490,2582,122,0.04899598393574297,44,17.670682730923694,new
+page-bbe2b2d5-1e02-4d53-ba1c-158eaab2e6d5,book,single_column,3204,3464,940,0.2933832709113608,35,10.923845193508114,new
+"book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0035",book,single_column,2662,2915,310,0.11645379413974455,63,23.6664162283997,new
+page-9cca07f9-2e06-4da7-b4f4-496c6e305543,book,single_column,2024,2113,499,0.24654150197628458,23,11.363636363636363,new
+yanbaor2_0071908e787f90267682e19ef093bb18dda6e1c1614534c445ddd62c425b3a94.pdf_44,book,three_column,3680,3671,33,0.008967391304347826,0,0.0,new
+PPT_linear-algebra primer_page_008,PPT2PDF,other_layout,270,296,27,0.1,0,0.0,new
+PPT_B14_Claeys_Consistent Presentation of Images_v2_page_013,PPT2PDF,single_column,249,241,10,0.040160642570281124,0,0.0,new
+PPT_ch7_page_136,PPT2PDF,single_column,529,583,88,0.166351606805293,11,20.793950850661624,new
+PPT_11.2013EvaluatingTraineeteacherproficiency_page_029,PPT2PDF,single_column,286,292,8,0.027972027972027972,0,0.0,new
+PPT_11.2013EvaluatingTraineeteacherproficiency_page_010,PPT2PDF,single_column,421,446,30,0.07125890736342043,0,0.0,new
+yanbaopptmerge_SE20.pdf_2,PPT2PDF,single_column,549,722,179,0.32604735883424407,0,0.0,new
+magazine_TheEconomist.2023.11.25_page_068,magazine,1andmore_column,6134,6030,175,0.02852950766221063,4,0.6521030322791,new
+magazine_TheEconomist.2023.11.25_page_093,magazine,other_layout,1588,1335,264,0.16624685138539042,0,0.0,new
+page-0c28f48b-33da-489c-bfc1-1fe82e5be68f,magazine,three_column,829,841,36,0.04342581423401689,6,7.237635705669482,new
+yanbaor2_yanbaoPPT_1295,magazine,other_layout,2702,2715,36,0.013323464100666173,0,0.0,new
+docstructbench_enbook-zlib-o.O-21882649.pdf_3,magazine,single_column,1744,1717,27,0.01548165137614679,0,0.0,new
+yanbaor2_b997efc056ce194205f46dbd1c669eb32da025c4a3055c88d5f19ce434040b7b.pdf_46,magazine,single_column,697,705,16,0.02295552367288379,0,0.0,new
+exam_paper_en-file-putnam-archive_2000_Solutions_2000s_page_003,exam_paper,double_column,862,991,132,0.1531322505800464,26,30.162412993039442,new
+jiaocaineedrop_2005_QP.pdf_5,exam_paper,single_column,590,589,6,0.010169491525423728,0,0.0,new
+exam_paper_en-file-putnam-archive_2009_Solutions_2009s_page_003,exam_paper,double_column,3689,4202,591,0.16020601789102737,102,27.649769585253456,new
+exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001,exam_paper,1andmore_column,3934,4047,346,0.08795119471276056,44,11.184544992374173,new
+exam_paper_en-file-putnam-archive_2011_Solutions_2011s_page_002,exam_paper,double_column,4115,4814,830,0.20170109356014582,99,24.058323207776425,new
+jiaocaineedrop_jiaocai_needrop_en_3375,exam_paper,other_layout,3151,3104,97,0.03078387813392574,0,0.0,new
+newspaper_The Globe and Mail - 2025-1-8@magazinesclubnew_page_003,newspaper,other_layout,5740,5742,40,0.006968641114982578,1,0.17421602787456444,new
+newspaper_0edcd83c195557b43279fa73edaa59aa_1,newspaper,three_column,6255,6227,136,0.021742605915267787,2,0.319744204636291,new
+newspaper_5e266dfd9c498cab274e12a7b4a75755_2,newspaper,three_column,7223,7184,84,0.011629516821265402,0,0.0,new
+newspaper_TheBostonGlobe-2025-1-8@magazinesclubnew_page_033,newspaper,other_layout,13402,11978,2417,0.18034621698253991,1,0.07461572899567229,new
+newspaper_The Times UK_0801@magazinesclubnew_page_001,newspaper,other_layout,5938,6178,274,0.04614348265409229,0,0.0,new
+newspaper_fe5ed29024932fad071afc53807b16ba_5,newspaper,three_column,6699,6694,108,0.0161218092252575,0,0.0,new
+color_textbook_zhonggaokao_小学_13.人教新起点英语（4-5年级）_人教新起点四年级英语上册_课本_人教新起点英语4A电子课本_page_044,colorful_textbook,single_column,247,220,52,0.21052631578947367,2,8.097165991902834,new
+color_textbook_zhonggaokao_小学_KET听说读写逐项突破_KET听说读写逐项突破之轻松搞定KET写作25分 【10讲 褚连一】_第04讲第四课KET分类词汇训练二_第四课KET分类词汇训练二_page_003,colorful_textbook,double_column,1077,1114,50,0.04642525533890436,0,0.0,new
+jiaocai_P0-9.pdf_9,colorful_textbook,single_column,1508,1504,25,0.016578249336870028,0,0.0,new
+color_textbook_zhonggaokao_小学_13.人教新起点英语（4-5年级）_人教新起点五年级英语下册_课本_人教新起点英语5B电子课本_page_011,colorful_textbook,other_layout,963,951,12,0.012461059190031152,0,0.0,new
+color_textbook_zhonggaokao_小学_13.人教新起点英语（4-5年级）_人教新起点五年级英语上册_课本_人教新起点英语5A电子课本_page_060,colorful_textbook,other_layout,243,228,15,0.06172839506172839,0,0.0,new
+jiaocaineedrop_c04_874768_mt.pdf_6,colorful_textbook,other_layout,1702,1689,32,0.01880141010575793,1,0.5875440658049353,new

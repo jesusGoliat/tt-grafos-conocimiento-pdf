@@ -1,0 +1,284 @@
+[
+    {
+        "type": "text",
+        "text": "Day 2 Research Items Needed for Your Trip",
+        "text_level": 2,
+        "bbox": [
+            127,
+            158,
+            608,
+            180
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Estimate how long the trip will take if you travel 60 miles per hour.",
+        "bbox": [
+            127,
+            184,
+            738,
+            204
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Determine how many stops for gas you will need to make if your car can travel 30 miles per gallon and holds 18 gallons of gas.",
+        "bbox": [
+            127,
+            205,
+            751,
+            244
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Write an equation to determine how much you will spend on gas for the entire trip if gas costs \\$2.50 pergallon.",
+        "bbox": [
+            127,
+            246,
+            750,
+            285
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Place the cost of the gas in the tablefrom Day 1.",
+        "bbox": [
+            127,
+            287,
+            576,
+            306
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Day 3What To Do When You Get There",
+        "text_level": 2,
+        "bbox": [
+            127,
+            336,
+            567,
+            357
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Research what you would like to do when you reach your final destination.",
+        "bbox": [
+            127,
+            361,
+            698,
+            399
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Design a calendar for the week. Account for how each hour is spent.",
+        "bbox": [
+            127,
+            402,
+            746,
+            421
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Draw a clock next to each event to show the time it will occur. Write the elapsed time for each event.",
+        "bbox": [
+            127,
+            423,
+            747,
+            462
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Research prices on the places you will visit and the food you will eat. Add these figures to the table that was created on Day1.",
+        "bbox": [
+            127,
+            464,
+            751,
+            505
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/22bfc7c3198e54fde3d877f5436ceefc81eb66f21ec9b77ae7948c9a0170cc6c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            770,
+            312,
+            965,
+            517
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Day 4 What Is the Cost?",
+        "text_level": 2,
+        "bbox": [
+            128,
+            533,
+            400,
+            554
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Research prices for the hotel. Place this on the table from Day1.",
+        "bbox": [
+            127,
+            559,
+            711,
+            579
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Calculate the total cost of the trip using the table from Day 1.",
+        "bbox": [
+            127,
+            580,
+            683,
+            599
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Prepare a poster to present to the class that shows the information about your trip.",
+        "bbox": [
+            127,
+            601,
+            735,
+            641
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Day 5 Presentation Day",
+        "text_level": 2,
+        "bbox": [
+            128,
+            669,
+            397,
+            691
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Present your trip to the class.",
+        "bbox": [
+            127,
+            696,
+            403,
+            715
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Include a summary of where you would go, your calendar, the total cost, and the poster you created.",
+        "bbox": [
+            127,
+            716,
+            738,
+            757
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Wrap Up",
+        "text_level": 2,
+        "bbox": [
+            128,
+            793,
+            258,
+            819
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• How many possible destinations didyour group identify?",
+        "bbox": [
+            127,
+            833,
+            647,
+            853
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Why did you choose your destination?",
+        "bbox": [
+            127,
+            854,
+            485,
+            873
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Did the costs of places help you decide where you wanted to go?",
+        "bbox": [
+            127,
+            875,
+            723,
+            894
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Estimate how much faster you will arrive at your destination if you travel 65 miles per hour. Explain.",
+        "bbox": [
+            127,
+            895,
+            728,
+            935
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "aside_text",
+        "text": "Projects",
+        "bbox": [
+            936,
+            94,
+            974,
+            206
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "P9",
+        "bbox": [
+            900,
+            960,
+            928,
+            975
+        ],
+        "page_idx": 0
+    }
+]

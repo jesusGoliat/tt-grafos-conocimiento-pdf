@@ -1,0 +1,239 @@
+[
+    {
+        "type": "text",
+        "text": "Bases & Orthonormal Bases",
+        "text_level": 2,
+        "bbox": [
+            186,
+            74,
+            802,
+            147
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Basis (or axes): frame of reference",
+        "bbox": [
+            82,
+            197,
+            556,
+            251
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/0db54509cfccfadf981a7109c704abd831f5fa8a5a486b23a3765cdc5db984f7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            175,
+            270,
+            402,
+            502
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "VS",
+        "bbox": [
+            462,
+            373,
+            500,
+            415
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/27bf85c7844a6681ca4dc04c88ea15e0774c2910792ab3321c86a4d5d33d912e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            615,
+            227,
+            912,
+            534
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Basis: a space is totally defined by a set of vectors – any point is a linear combination of the basis",
+        "bbox": [
+            68,
+            563,
+            891,
+            656
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ortho-Normal: orthogonal + normal",
+        "bbox": [
+            70,
+            696,
+            496,
+            746
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[Sneak peek:",
+        "bbox": [
+            72,
+            785,
+            232,
+            830
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Orthogonal: dot product is zero",
+        "bbox": [
+            170,
+            831,
+            540,
+            876
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Normal: magnitude is one ]",
+        "bbox": [
+            170,
+            876,
+            488,
+            920
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5a886f51c1bf600ac09a768b598adaf3b50dc5ef51d0a1a07202a05518f5c464.jpg",
+        "text": "$$\n\\begin{array} { r } { x = \\left[ 1 ~ 0 ~ 0 \\right] ^ { T } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            556,
+            712,
+            722,
+            776
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/daabe4c79748c51e3571305fdef7e46266faede6938e398d370be8d17240f376.jpg",
+        "text": "$$\nx \\cdot y = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            798,
+            721,
+            902,
+            776
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/026e56087df445e09beab3dcda0a45317c7297df3989f7fa92a054578db7bca7.jpg",
+        "text": "$$\ny = \\left[ 0 \\begin{array} { c c c } { 1 } & { 0 } \\end{array} \\right] ^ { T }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            556,
+            780,
+            723,
+            842
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/601f4b188ee763a5f634343ba528b97c0470cd2d8584a14f942ea7baf0da8795.jpg",
+        "text": "$$\nx \\cdot z = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            799,
+            786,
+            899,
+            836
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/61657410719aade1b64c3f56d09b4ddd701260320c8353f62ad910fd690d9c4f.jpg",
+        "text": "$$\nz = \\big [ 0 0 \\mathrm { ~ \\textit ~ { ~ 1 ~ } ~ } ] ^ { T }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            558,
+            846,
+            720,
+            906
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/afac45041c285308322df46c77d99bdce53e59ed40452b6f97a47608703bbad4.jpg",
+        "text": "$$\ny \\cdot z = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            800,
+            850,
+            901,
+            902
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Shivkumar Kalyanaraman",
+        "bbox": [
+            679,
+            908,
+            950,
+            948
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "Rensselaer Polytechnic Institute",
+        "bbox": [
+            44,
+            924,
+            266,
+            952
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            480,
+            963,
+            498,
+            994
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "Google\": “shiv rpi\"",
+        "bbox": [
+            796,
+            956,
+            991,
+            996
+        ],
+        "page_idx": 0
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "type": "text",
+        "text": "Al & Cognitive Science",
+        "text_level": 2,
+        "bbox": [
+            82,
+            65,
+            340,
+            86
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Community Opinion",
+        "text_level": 2,
+        "bbox": [
+            83,
+            151,
+            324,
+            173
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Engagement with other areas of cognitive science varies across the survey respondents, with 30% responding to the questions in this section. Among those who responded, in terms of influence on their research, 18% said always, 32% said usually, 32% said sometimes.Only2.8% said never and 12% said rarely. Thus",
+        "bbox": [
+            82,
+            200,
+            345,
+            341
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "82% are influenced to a reasonable degree by research in other areas of cognitive science.Which other areas provide the most influence? Our respondents report psychology (82%), Neuroscience (44%), Linguistics (40%), and Anthropology (22%), with 13% mentioning other fields, Philosophy being the most common. In terms",
+        "bbox": [
+            364,
+            200,
+            619,
+            341
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "of what issues aremost relevant, a broad set of creative responses were produced, some quite creative, e.g. studying how minds completely different to our own might function.",
+        "bbox": [
+            645,
+            200,
+            891,
+            278
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "40",
+        "bbox": [
+            84,
+            931,
+            104,
+            941
+        ],
+        "page_idx": 0
+    }
+]

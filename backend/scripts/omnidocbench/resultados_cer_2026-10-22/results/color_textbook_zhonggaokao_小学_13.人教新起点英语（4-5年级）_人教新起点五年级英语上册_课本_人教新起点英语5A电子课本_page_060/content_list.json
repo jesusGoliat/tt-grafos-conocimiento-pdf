@@ -1,0 +1,259 @@
+[
+    {
+        "type": "text",
+        "text": "Lesson 1",
+        "text_level": 2,
+        "bbox": [
+            71,
+            42,
+            263,
+            70
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Listen and match.",
+        "text_level": 2,
+        "bbox": [
+            33,
+            88,
+            403,
+            116
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/47243148c8677a1ed57cda1c76f034495565a6eedce8aa4c67a4ec56ca67307b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            77,
+            127,
+            216,
+            215
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/5d7019d18255aefc2e1b3815d88af7366da96c14e8cb376fb1364f4ebe174600.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            279,
+            128,
+            396,
+            215
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/9f312a3731a448fdda5850d75d4b220a55c377d0bd56b9cfeea8db14d95ccd89.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            461,
+            127,
+            572,
+            217
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/d19c5694e61959532e1e9837c70ea5d12cbb48447aab43a40c346c7c20d969e7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            638,
+            119,
+            737,
+            217
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/6313f63a274448aba2ffc5f860811c112012e164e2f0506901f32544c6e72726.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            807,
+            133,
+            893,
+            214
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/5f4a0c54cb853ceb398c25978e95afc433a2bdf01aa40622532c199261025495.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            47,
+            269,
+            205,
+            346
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/4cf61ebb481c814757e28ee7e85ede7f22a1b449350d523b3851b96f7a19d759.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            232,
+            287,
+            397,
+            359
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/95cc97eddac8f256a892c2f9509e1d2140a64ea69916e78b1425ccf8dacab147.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            424,
+            268,
+            588,
+            347
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/15ecfe4c8d538b2cdfda22152f2d81573d9337a7212b4fd8fd797233d0a38dec.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            614,
+            281,
+            769,
+            353
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/bb95d7b5f27fb1714d9e6546288cf4a7b7763d8a5d56e7eef47e96a740f75e08.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            804,
+            267,
+            960,
+            346
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "BLet's talk.",
+        "text_level": 2,
+        "bbox": [
+            33,
+            376,
+            260,
+            404
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/66dea133382df351b4b1dfa874e65f683e7b085d6e498b3eea2c205a4bab1050.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            54,
+            417,
+            974,
+            702
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Let's write.",
+        "text_level": 2,
+        "bbox": [
+            33,
+            712,
+            285,
+            739
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "My favourite TV shows are",
+        "bbox": [
+            45,
+            750,
+            859,
+            773
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "My grandmother's favourite TV shows are",
+        "bbox": [
+            45,
+            783,
+            858,
+            805
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "My grandfather's favourite TV shows are",
+        "bbox": [
+            45,
+            815,
+            858,
+            838
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "My father's favourite TV shows are",
+        "bbox": [
+            46,
+            847,
+            856,
+            870
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "My mother's favourite TV shows are",
+        "bbox": [
+            45,
+            880,
+            854,
+            903
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "57",
+        "bbox": [
+            916,
+            920,
+            952,
+            938
+        ],
+        "page_idx": 0
+    }
+]

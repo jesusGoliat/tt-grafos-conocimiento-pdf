@@ -1,0 +1,198 @@
+[
+    {
+        "type": "text",
+        "text": "Lesson 3",
+        "text_level": 2,
+        "bbox": [
+            75,
+            52,
+            251,
+            80
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ALet's read.",
+        "text_level": 2,
+        "bbox": [
+            40,
+            96,
+            258,
+            124
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/f3b340dee843651332aa3c3da713c7f6f56e702230698710ebc1241fbd1369b0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            264,
+            94,
+            310,
+            126
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Read the letter from Worried. Do you have the same problem?",
+        "bbox": [
+            51,
+            145,
+            858,
+            170
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dear Linda,",
+        "bbox": [
+            57,
+            249,
+            193,
+            270
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "I always feel tired and sleepy. I sometimes sleepin class. I likemy teachers and I like all my subjects, butI don't get good marks. At night I can't sleep,so I go on the computer or watch TV. It'snot good.What should I do?",
+        "bbox": [
+            55,
+            271,
+            437,
+            435
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Worried",
+        "bbox": [
+            238,
+            455,
+            337,
+            478
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dear Worried,",
+        "bbox": [
+            453,
+            199,
+            615,
+            221
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Many students have this problem. You are going to be OK. I have some advice for you. First, you should exercise every day. Play football or basketball with your classmates or do morning exercises. Next, you shouldn't play too much on the computer or watch too much TV. So turn off the TV and computer at 9 pm. Try to walk more and help your mum do some housework. Finally, you should go to bed before 9:30. Try these things. I think you'll soon feel better.",
+        "bbox": [
+            452,
+            222,
+            882,
+            524
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Linda",
+        "bbox": [
+            692,
+            545,
+            764,
+            566
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. Linda writes a letter to Worried to tell him",
+        "text_level": 2,
+        "bbox": [
+            54,
+            595,
+            711,
+            619
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A. how to play computer games",
+        "bbox": [
+            54,
+            627,
+            409,
+            649
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "B.how to feel better",
+        "bbox": [
+            54,
+            650,
+            286,
+            671
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "C.how to make new friends",
+        "bbox": [
+            54,
+            673,
+            368,
+            694
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3.Fill in the chart.",
+        "text_level": 2,
+        "bbox": [
+            56,
+            712,
+            288,
+            734
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/c80c8aaf7faba4606684ddca580ca6e6812b6bc322b7055a31bb92e501911726.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Worried&#x27;s problems</td><td>Linda&#x27;s advice to Worried</td></tr><tr><td>1. He always feels and</td><td>1. He should every day. 2. He shouldn&#x27;t play too much on the</td></tr></table>",
+        "bbox": [
+            58,
+            737,
+            885,
+            924
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            71,
+            947,
+            92,
+            964
+        ],
+        "page_idx": 0
+    }
+]

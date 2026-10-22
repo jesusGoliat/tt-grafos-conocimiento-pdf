@@ -1,0 +1,229 @@
+[
+    {
+        "type": "text",
+        "text": "Section 1: What do they want?",
+        "text_level": 2,
+        "bbox": [
+            62,
+            43,
+            545,
+            72
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Key takeaway 3: Promoting iconic brand-product combinations is key",
+        "text_level": 2,
+        "bbox": [
+            61,
+            143,
+            270,
+            227
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Young Chinese consumers told us luxury helps them feel distinct from the people with whom they share their cities.",
+        "bbox": [
+            61,
+            240,
+            300,
+            302
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "They see luxury as a form of social capital that helps mark them apart, and achieve personal and social goals.",
+        "bbox": [
+            61,
+            309,
+            326,
+            356
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "That sentiment intensifies towards the younger end of the spectrum, with well over half the sample, and almost 70 percent of post-'90s consumers, telling us they buy luxury to “feel different rather than fit in with society.\"",
+        "bbox": [
+            60,
+            361,
+            325,
+            455
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Buying luxury is also a way to convey and enjoy a shared social experience and value system—a lifestyle and community that lives and breathes luxury, online and in the flesh.",
+        "bbox": [
+            343,
+            143,
+            594,
+            221
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Young Chinese consumers' consumption of media, and the luxury lifestyle it portrays, is consequently heavily social and trend dependent— a desire to be seen or snapped in the latest styles drives consumption, and with it a need for brands to constantly update their styles or leverage creative marketing to create the illusion of newness.",
+        "bbox": [
+            343,
+            226,
+            599,
+            381
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "More than three-quarters of young Chinese consumers are thus most interested in buying iconic styles that are easily recognizable, with the trend most prevalent among the post-'65s/'70s consumers.",
+        "bbox": [
+            344,
+            388,
+            596,
+            481
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Indeed, the concept of a niche brand has multiple meanings across luxury segments, from one that exhibits unique design to those that are niche in the sense of being rarely seen on the street, or simply not available in mainland China.",
+        "bbox": [
+            625,
+            143,
+            877,
+            251
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In any case, China's luxury market has yet to develop the widespread sophistication necessary to sustain demand for truly niche or boutique brands, as has been the case in the West.",
+        "bbox": [
+            625,
+            257,
+            870,
+            350
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Brand remains king when it comes to informing taste across all our surveyed generations, but is relatively less important for younger consumers. For example, brand was the top reason for the last luxury purchase among 68 percent of the post-'90s consumers, compared with 94 percent of the post-’65s/’70s consumers (Exhibit 4).",
+        "bbox": [
+            625,
+            357,
+            896,
+            497
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Exhibit 4",
+        "bbox": [
+            62,
+            534,
+            128,
+            549
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Brand is important, but relatively less so among young consumers.",
+        "bbox": [
+            62,
+            550,
+            650,
+            568
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Top reason for last luxury purchase by generation %of respondents who selected reason as no.1contributing factor",
+        "bbox": [
+            61,
+            580,
+            541,
+            611
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "chart",
+        "img_path": "images/cb9e9784166d63e1f1c627e32d90056c36b2b362e5271e0d4a954cff85f618fd.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [
+            "Participants ranked these 5 reasons as a contributing factor for their most recent purchase Note: Figures may not sum to100%,because of rounding. SOURCE: China Luxury Report 2019"
+        ],
+        "bbox": [
+            66,
+            624,
+            555,
+            843
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Brand is still the most important factor but relatively less so vs the older generation",
+        "bbox": [
+            641,
+            629,
+            892,
+            673
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Social influence accelerates sophistication: consumers start to appreciate more nuanced elements such as design, fabric, and manufacturing process",
+        "bbox": [
+            644,
+            677,
+            889,
+            761
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Commanding knowledge beyond simply brand is another form of social capital to be demonstrated among peers",
+        "bbox": [
+            644,
+            766,
+            892,
+            823
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            63,
+            964,
+            75,
+            974
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "China Luxury Report 2019",
+        "bbox": [
+            346,
+            962,
+            485,
+            975
+        ],
+        "page_idx": 0
+    }
+]

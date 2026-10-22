@@ -1,0 +1,217 @@
+[
+    {
+        "type": "text",
+        "text": "Our platform basically captures the prescriptive logic that experts apply to all known sales, service and operational decisions and allows it to be replicated in a very compliant and predictable way. And that means that banks and insurers can take the risk out of the customer conversation so that employees can instead focus on delivering a truly valuable experience.",
+        "bbox": [
+            52,
+            250,
+            337,
+            391
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "DM: How has that impacted the workforce?",
+        "bbox": [
+            53,
+            400,
+            291,
+            430
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "RF: It has actually been incredibly empowering. The reality is that front-line staff want to be helping customers and want to be delivering a better experience. But many of them are so afraid of the risks or so confused by the formulas that they fall short of actually helping customers.",
+        "bbox": [
+            52,
+            441,
+            338,
+            541
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "With our solution, no matter what question a customer asks, the employee will be able to quickly consider the right factors, ask the right questions and then offer the right products or solutions. They don't need to confer with trained specialists because the logic used by those specialists is already embedded in the system. It also means staff can be performing in a fully compliant way with a fraction of traditional training.",
+        "bbox": [
+            52,
+            550,
+            340,
+            705
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "DM: What feedback have you received from banks and insurers?",
+        "bbox": [
+            52,
+            714,
+            337,
+            745
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "RF: We have helped banks and insurers achieve some amazing results. We helped one bank achieve a 52 percent increase in sales closures within the branch with a 20 percent increase in cross sales. We have helped insurers build virtual advisors that have allowed them to target services to small-to-medium enterprises. And we've helped a number of financial",
+        "bbox": [
+            52,
+            755,
+            339,
+            881
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "services organizations improve their first call resolution rates in their call centers. We are also now helping turn current Virtual Assistants into Virtual Advisors, powered by our logic.",
+        "bbox": [
+            354,
+            250,
+            631,
+            322
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "But I think the greatest feedback we get is from the employees themselves. We've seen performance rates go through the roof, largely because employees are being allowed to really focus on their customers. And that has made a measurable difference in both customer and employee engagement.",
+        "bbox": [
+            354,
+            332,
+            643,
+            445
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "DM: How does your solution integrate into the omni-channel approach?",
+        "bbox": [
+            355,
+            454,
+            639,
+            486
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "RF: We are the platform that enables these omni-channel technologies to deliver a consistent, compliant and needsbased experience to customers. Our VA logic can be used to navigate staff through all known customer engagements in line with the latest regulatory, procedural and product rules — before handing over to the existing operating systems for execution.",
+        "bbox": [
+            354,
+            496,
+            642,
+            636
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The natural starting point for our platform is often within the contact center — helping turn agents into Super Agents who can answer any call they receive. From there we very seamlessly integrate into the digital architecture and operating systems of the organization to help them deliver a true omni-channel experience that is consistent, compliant and customer focused.",
+        "bbox": [
+            354,
+            647,
+            645,
+            773
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Perhaps the best part about the solution is that it is quick to deploy — it often takes less than 8 weeks to build a powerful digital advisor — and is easily scalable. And that means rapid and reliable results across the organization. In today's fast-paced financial services environment, that is critical.■",
+        "bbox": [
+            354,
+            783,
+            641,
+            882
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/da381ec0374f96f23ff795085f78c1d0a46cf27e23aec596e602bad647b2246e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            679,
+            407,
+            795,
+            487
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/811ed62b67c38360a64a47a8216ce06d51e0f268205f78282cf3eed49edbfc19.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            679,
+            492,
+            766,
+            562
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ryan Falkenberg   \nRyan Falkenberg is the co-founder and CEO of CLEVVA, a platform that allows non-coding teams to build a digital ’brain' that both staff and   \nchatbots use to deliver the same   \nconsistent, compliant customer   \nexperience. David Milligan   \nT:+27 6099 77174   \nE: david.milligan@matchi.biz   \nDavid Milligan is the CEO of KPMG-Matchi, a leading global fintech   \ninnovation and matchmaking platform that connects financial institutions, including banks and insurance   \ncompanies, with leading-edge fintech solutions and companies worldwide.",
+        "bbox": [
+            677,
+            568,
+            916,
+            667
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/e4ebcbbd27d272e90d697e5e8e727f22a3edc577bc51c6c4d9e21f232a855fb3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            680,
+            685,
+            765,
+            755
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            677,
+            760,
+            924,
+            883
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "Frontiers in Finance",
+        "bbox": [
+            806,
+            964,
+            921,
+            976
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "45",
+        "bbox": [
+            926,
+            964,
+            943,
+            976
+        ],
+        "page_idx": 0
+    }
+]

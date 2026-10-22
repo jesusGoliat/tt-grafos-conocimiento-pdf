@@ -1,0 +1,205 @@
+[
+    {
+        "type": "text",
+        "text": "Top 10 Best Seller Books",
+        "text_level": 1,
+        "bbox": [
+            260,
+            55,
+            737,
+            85
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[PDF] Where the Crawdads Sing",
+        "text_level": 2,
+        "bbox": [
+            67,
+            116,
+            420,
+            136
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/f3147381598a52759749001ebecc6c60216206841308d1d6eaba970d78940cad.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            70,
+            141,
+            157,
+            236
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "SOON TO BE A MAJORMOTION PICTURE—The #1 New York Times bestselling worldwide sensation with more than 12 million copies sold, hailed by The NewYork Times Book Review as \"a painfully beautiful first novel that is at once a murder mystery, a coming-of-age narrative and a celebration of nature.\"For years, ... Read More...",
+        "bbox": [
+            159,
+            148,
+            932,
+            219
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[PDF] The Summer I Turned Pretty",
+        "text_level": 2,
+        "bbox": [
+            67,
+            277,
+            453,
+            296
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/eeb102dffca97a6fa7672055b28cd9cccb6bcf5121610990f5e139a75bfd8913.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            73,
+            308,
+            154,
+            395
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Now a streamingseries in Summer 2022! Belly has an unforgettable summer in this stunning start to the Summer I Turned Pretty series from the New York Times bestselling author of To All the Boys I've Loved Before , Jenny Han. Some summers are just destined to be pretty. Belly measures her life in ... Read More...",
+        "bbox": [
+            159,
+            309,
+            932,
+            381
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[PDF] The Inn on Harmony Island",
+        "text_level": 2,
+        "bbox": [
+            67,
+            439,
+            438,
+            459
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/05a43f3f8e07e39e7f9ccf45607a48b93216d63547fe59a1c6082a9f7239af6b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            68,
+            466,
+            159,
+            559
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "\"I've binged it in a day, I love these characters, I love their dynamics, I love the mysteriousness of their background and everything in between. I've fallen hard for these characters!\"--Reviewer  \"Eachtime I assumed the book would be predictable,a twist poppedup and ...Read More...",
+        "bbox": [
+            159,
+            471,
+            932,
+            542
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[PDF] It'sNot Summer Without You",
+        "text_level": 2,
+        "bbox": [
+            67,
+            599,
+            462,
+            619
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/f35a76370fa35c878dc1aca399a3293e08ccf604cb10732556fb74d76ecc8525.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            68,
+            625,
+            159,
+            722
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Soon to be a streaming series in Summer 2022! Belly finds out what comes after falling in love in this follow-up to The Summer I Turned Pretty from the New York Times bestselling author of To All the Boys I've Loved Before (now a major motion picture!), JennyHan. It used to be that Belly counted the... Read More...",
+        "bbox": [
+            159,
+            633,
+            932,
+            704
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[PDF] ItEnds with Us",
+        "text_level": 2,
+        "bbox": [
+            67,
+            761,
+            299,
+            781
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/859eb29a86aac603f6b6512c0e177994242606bf690c8f8eb9ab05c3a5a3209c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            70,
+            790,
+            157,
+            883
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In this \"brave and heartbreaking novel that digs its claws into you and doesn't let go, long after you've finished it\" (Anna Todd, New York Times bestselling author) from the #1 New York Times bestselling author of All Your Perfects, a workaholic with a too-goodto-be-true romance can't stop th...Read More...",
+        "bbox": [
+            159,
+            794,
+            932,
+            864
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "PDF File:It Happened One Summer",
+        "bbox": [
+            67,
+            956,
+            300,
+            969
+        ],
+        "page_idx": 0
+    }
+]

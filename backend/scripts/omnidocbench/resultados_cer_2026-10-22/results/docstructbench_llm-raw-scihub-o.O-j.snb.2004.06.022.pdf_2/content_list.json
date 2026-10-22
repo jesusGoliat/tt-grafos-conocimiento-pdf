@@ -1,0 +1,105 @@
+[
+    {
+        "type": "image",
+        "img_path": "images/f857678ed40f86b5d0857fca61bb31c58b3ae32010b12e47898bc86238c4b25c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            152,
+            85,
+            391,
+            162
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/6825e7528ff9c310a68da00769f6d7e3e4128287b81affa2893a1e44f0d787f6.jpg",
+        "image_caption": [
+            "Fig. 1. Real structure consistingof three thin layers: silver (for electric contact), metal-free phthalocyanine and palladium fabricated on an alundum substrate.",
+            "Fig. 2. A scheme of resistance measurements in the two-point method. Changes in resistance were monitored by an automatic data acquisition unit Agilent 34970A for varioushydrogen concentrationsin nitrogen or in air."
+        ],
+        "image_footnote": [],
+        "bbox": [
+            618,
+            84,
+            808,
+            161
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The main goal of this paper is to investigate the electric resistance of a layered phthalocyanine and palladium (Pc + Pd) structure under the influence of various hydrogen concentrations in nitrogen and air. We show that during the interaction of hydrogen with bilayer structures metal-free phthalocyanine and palladium there occurs a strong change in the resistance of these structures. This would correspond to an acousto-electric effect in the SAW sensor system",
+        "bbox": [
+            63,
+            239,
+            477,
+            300
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            504,
+            238,
+            919,
+            300
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "chart",
+        "img_path": "images/808b11eca3b1be767045fe6f7d58d57a260e5a382050a916d3ebf47f4406ae3c.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            200,
+            317,
+            781,
+            598
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "chart",
+        "img_path": "images/e66d4ba39a8ea2077152fe23c2baadd6cd3b5978f01ac58d32201d03b53e6deb.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 3. Changes in the resistance of structures with two different thicknesses of metal-free phthalocyanine (55 nm circle – left axis, and 80 nm triangle – right axis) interaction in nitrogen, (a) at lower hydrogen concentrations 0.5-2.5% and (b) at higher concentrations 2.5-4%."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            200,
+            614,
+            783,
+            896
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "W.P. Jakubik et al./Sensors and Actuators B 105 (2005) 340–345",
+        "bbox": [
+            305,
+            55,
+            680,
+            69
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "341",
+        "bbox": [
+            892,
+            56,
+            915,
+            68
+        ],
+        "page_idx": 0
+    }
+]

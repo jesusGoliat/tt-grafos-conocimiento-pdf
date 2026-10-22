@@ -1,0 +1,545 @@
+[
+    {
+        "type": "text",
+        "text": "KET 分类词汇训练",
+        "text_level": 2,
+        "bbox": [
+            18,
+            68,
+            141,
+            93
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "painter painter n. 画家",
+        "bbox": [
+            10,
+            99,
+            223,
+            125
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "photography photography n. 摄影",
+        "bbox": [
+            10,
+            127,
+            256,
+            154
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "pratice/pratisepratice/pratise n./v.练习，实践",
+        "bbox": [
+            10,
+            156,
+            326,
+            183
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "prize prize n. 奖品",
+        "bbox": [
+            9,
+            186,
+            210,
+            212
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "programme programme n. 节目",
+        "bbox": [
+            9,
+            214,
+            252,
+            240
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "project Project n. 工程、项目",
+        "bbox": [
+            8,
+            243,
+            266,
+            270
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "website website n. 网站",
+        "bbox": [
+            9,
+            272,
+            224,
+            299
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "present present n. 礼物",
+        "bbox": [
+            10,
+            300,
+            224,
+            328
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "actor actor n. 男演员",
+        "bbox": [
+            9,
+            331,
+            223,
+            358
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "artist artist n. 艺术家",
+        "bbox": [
+            9,
+            362,
+            226,
+            388
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "businessman businessman n.商人",
+        "bbox": [
+            9,
+            393,
+            254,
+            420
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "KET分类词汇训练",
+        "text_level": 2,
+        "bbox": [
+            513,
+            68,
+            636,
+            93
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "chemist chemist n. 化学家，药剂师",
+        "bbox": [
+            501,
+            99,
+            794,
+            125
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "cleaner cleaner n，清洁工",
+        "bbox": [
+            501,
+            127,
+            737,
+            154
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "colleague colleague n.同事",
+        "bbox": [
+            502,
+            157,
+            734,
+            186
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "company company n. 公司",
+        "bbox": [
+            503,
+            189,
+            733,
+            216
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "computer computer n. 电脑",
+        "bbox": [
+            503,
+            221,
+            737,
+            248
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "customer customer n. 顾客",
+        "bbox": [
+            503,
+            252,
+            735,
+            278
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "dentist dentist n. 牙医",
+        "bbox": [
+            504,
+            279,
+            721,
+            308
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "diploma diploma n. 文凭",
+        "bbox": [
+            503,
+            311,
+            729,
+            340
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "doctor doctor n. 医生",
+        "bbox": [
+            504,
+            343,
+            718,
+            370
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "driver driver n. 司机",
+        "bbox": [
+            503,
+            372,
+            718,
+            398
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "earn earn v. 赚得，获得",
+        "bbox": [
+            505,
+            401,
+            747,
+            428
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "KET 分类词汇训练",
+        "text_level": 2,
+        "bbox": [
+            18,
+            567,
+            141,
+            592
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "engineer engineer n. 工程师",
+        "bbox": [
+            10,
+            595,
+            278,
+            623
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "guest guest n. 客人",
+        "bbox": [
+            9,
+            625,
+            245,
+            654
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "guide guide n. 引导者、指南",
+        "bbox": [
+            9,
+            656,
+            301,
+            686
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "hairdresser hairdresser n. 理发师",
+        "bbox": [
+            9,
+            691,
+            295,
+            718
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "instructions instructions n. 说明书",
+        "bbox": [
+            9,
+            720,
+            297,
+            747
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "nurse nurse n. 护士",
+        "bbox": [
+            9,
+            750,
+            248,
+            775
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "occupation occupation n. 职业",
+        "bbox": [
+            9,
+            779,
+            278,
+            806
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "pharmacy pharmacy n. 药房",
+        "bbox": [
+            9,
+            809,
+            275,
+            837
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "photographer photographer n.摄影师",
+        "bbox": [
+            9,
+            843,
+            310,
+            871
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "receptionist receptionist n. 接待员",
+        "bbox": [
+            10,
+            880,
+            299,
+            907
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "secretary secretary n. 秘书",
+        "bbox": [
+            9,
+            910,
+            269,
+            935
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "KET 分类词汇训练",
+        "text_level": 2,
+        "bbox": [
+            513,
+            566,
+            636,
+            593
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "shop assistant shop assistant n.店员",
+        "bbox": [
+            503,
+            597,
+            801,
+            625
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "staff staff n. 全体人员，同事",
+        "bbox": [
+            504,
+            625,
+            811,
+            654
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "uniform uniform n. 制服",
+        "bbox": [
+            504,
+            658,
+            765,
+            686
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "accident accident n. 事故、意外",
+        "bbox": [
+            504,
+            689,
+            811,
+            716
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "appointment appointment n. 约会、预约",
+        "bbox": [
+            504,
+            717,
+            837,
+            745
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "arm arm n. 手臂",
+        "bbox": [
+            503,
+            750,
+            741,
+            775
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "body body n. 身体",
+        "bbox": [
+            502,
+            779,
+            746,
+            805
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "back back n. 后背，脊背",
+        "bbox": [
+            502,
+            806,
+            786,
+            833
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "check check n./v. 检查",
+        "bbox": [
+            504,
+            834,
+            763,
+            862
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "dangerous dangerous a. 危险的",
+        "bbox": [
+            502,
+            864,
+            790,
+            895
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "dentist dentist n. 牙医",
+        "bbox": [
+            503,
+            901,
+            755,
+            928
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            967,
+            908,
+            978,
+            927
+        ],
+        "page_idx": 0
+    }
+]

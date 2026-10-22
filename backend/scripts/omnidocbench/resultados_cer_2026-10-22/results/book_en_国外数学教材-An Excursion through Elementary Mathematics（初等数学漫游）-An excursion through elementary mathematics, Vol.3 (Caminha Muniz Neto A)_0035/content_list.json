@@ -1,0 +1,171 @@
+[
+    {
+        "type": "text",
+        "text": "Moreover, for $1 \\leq k \\leq n$ such numbers satisfy the recurrence relation",
+        "bbox": [
+            115,
+            90,
+            757,
+            108
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c81dc8255c130b987e7439b53fc2307bc7a6fee2ee098231c0240d5a7f7d5f25.jpg",
+        "text": "$$\n{ \\binom { n } { k } } = { \\binom { n - 1 } { k } } + { \\binom { n - 1 } { k - 1 } } ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            358,
+            123,
+            638,
+            163
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "which is known as Stifel's relation and allows us to prove that ${ \\binom { n } { k } } \\in \\mathbb { N }$ for every n and k as above.",
+        "bbox": [
+            115,
+            180,
+            879,
+            216
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Proposition 1.26 If A is a finite set with n elements and $0 ~ \\le ~ k ~ \\le ~ n$ , then A possesses exactly $\\binom { n } { k }$ subsets of k elements.",
+        "bbox": [
+            114,
+            225,
+            879,
+            263
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Proof $\\mathrm { I f } k = 0$ there is nothing to do, for Ø is the only subset of A having 0 elements and ${ \\binom { n } { 0 } } \\ = \\ 1$ . Thus, let $1 \\leq k \\leq n$ and $C _ { k } ^ { n }$ be the number of subsets of A with k elements.",
+        "bbox": [
+            114,
+            270,
+            879,
+            322
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "For a fixed $x \\in A$ , there are two kinds of subsets of A with k elements: those which do not contain x and those which do contain x. The former ones are precisely the k-element subsets of $A \\setminus \\{ x \\}$ ; since $| A \\setminus \\{ x \\} | = n - 1$ , there are exactly $C _ { k } ^ { n - 1 }$ of these subsets of k elements of A.",
+        "bbox": [
+            114,
+            324,
+            880,
+            395
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "On the other hand, if $B \\subset A$ has k elements and $x \\in B$ , then $B \\setminus \\{ x \\} \\subset A \\setminus \\{ x \\}$ has $k - 1$ elements; conversely, if $B ^ { \\prime } \\subset A \\backslash \\{ x \\}$ has $k - 1$ elements, then $B ^ { \\prime } \\cup \\{ x \\} \\subset A$ has k elements, one of which is x. Since such correspondences are clearly inverses of each other, we conclude that there are as many k-element subsets of A containing x, as there are $k - 1$ element subsets of $A \\setminus \\{ x \\}$ ; thus, there are exactly $C _ { k - 1 } ^ { n - 1 }$ such k-element subsets of A.",
+        "bbox": [
+            114,
+            396,
+            880,
+            504
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Taking these two contributions into account, we obtain for $1 ~ \\leq ~ k ~ \\leq ~ n$ the recurrence relation",
+        "bbox": [
+            114,
+            505,
+            879,
+            540
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d99b7068894f9d8bbfe49d996da845ad231e5f870fb3454518560c7308d30242.jpg",
+        "text": "$$\n\\begin{array} { r } { C _ { k } ^ { n } = C _ { k } ^ { n - 1 } + C _ { k - 1 } ^ { n - 1 } , } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            396,
+            556,
+            597,
+            579
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "which is identical to Stifel's relation for the binomial numbers $\\binom { n } { k }$ . Finally, since $C _ { 0 } ^ { n } = 1 = { \\binom { n } { 0 } }$ and $\\begin{array} { r } { C _ { 1 } ^ { n } = n = { \\binom { n } { 1 } } } \\end{array}$ (for A has exactly n subsets of 1 element each the sets {x}, with $x \\in A )$ , an easy induction gives $\\begin{array} { r } { C _ { k } ^ { n } = { \\binom { n } { k } } } \\end{array}$ for $0 \\leq k \\leq n$ □",
+        "bbox": [
+            114,
+            595,
+            880,
+            656
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In words, the previous proposition computes how many are the unordered choices of k distinct elements of a set having n elements; one uses to say that such choices are the combinations of n objects, taking k at a time. Also thanks to the former proposition, one uses to refer to the binomial number $\\binom { n } { k }$ as “n chooses $k ^ { \\prime \\prime }$",
+        "bbox": [
+            114,
+            663,
+            880,
+            737
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Example 1.27 When all diagonals of a certain convex octagon have been drawn, one noticed that there were no three of them passing through a single interior point of the octagon. How many points in the interior of the octagon are intersection points of two of its diagonals?",
+        "bbox": [
+            114,
+            744,
+            880,
+            817
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "SolutionFirstly, note that the condition on the diagonals of the octagon guarantees that each one of the points of intersection we wish to count is determined by a single pair of diagonals. Hence, it suffices to count how many pairs of diagonals of the octagon intersect in its interior. To this end, note that each 4-element subset of",
+        "bbox": [
+            114,
+            825,
+            883,
+            898
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "1.4 Arrangements, Combinations and Permutations",
+        "bbox": [
+            118,
+            51,
+            533,
+            68
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "25",
+        "bbox": [
+            854,
+            52,
+            879,
+            66
+        ],
+        "page_idx": 0
+    }
+]

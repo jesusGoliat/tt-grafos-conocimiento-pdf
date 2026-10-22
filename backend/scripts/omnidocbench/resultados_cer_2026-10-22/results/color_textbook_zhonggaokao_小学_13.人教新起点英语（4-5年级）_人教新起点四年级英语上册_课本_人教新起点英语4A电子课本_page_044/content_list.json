@@ -1,0 +1,154 @@
+[
+    {
+        "type": "text",
+        "text": "Lesson 1",
+        "text_level": 2,
+        "bbox": [
+            88,
+            57,
+            260,
+            86
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Look, listen and repeat.",
+        "text_level": 2,
+        "bbox": [
+            51,
+            99,
+            481,
+            130
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/e78b41155c417d2835633a15b4d4be9bd77962bbdaf851bc7727d553f568ab06.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            63,
+            144,
+            710,
+            461
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Shopping List",
+        "text_level": 2,
+        "bbox": [
+            702,
+            158,
+            881,
+            183
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a knife an eraser a glue stick a ruler a schoolbag books √ crayons √ pens pencils",
+        "bbox": [
+            722,
+            188,
+            868,
+            459
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "B Let's role-play.",
+        "text_level": 2,
+        "bbox": [
+            49,
+            476,
+            333,
+            507
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/1089c8df0390af2be4f1a7831a3eaf8fa0f9eafef24c2137cbcf8a90949be178.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            66,
+            513,
+            891,
+            763
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "© Let's write.",
+        "text_level": 2,
+        "bbox": [
+            46,
+            774,
+            273,
+            805
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Do you have",
+        "bbox": [
+            66,
+            814,
+            288,
+            859
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Do you have",
+        "bbox": [
+            75,
+            874,
+            288,
+            915
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "? Yes, we do.",
+        "bbox": [
+            557,
+            818,
+            748,
+            854
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "? Sorry, we don't.",
+        "bbox": [
+            553,
+            876,
+            836,
+            919
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "40",
+        "bbox": [
+            71,
+            943,
+            102,
+            960
+        ],
+        "page_idx": 0
+    }
+]

@@ -1,0 +1,278 @@
+[
+    {
+        "type": "text",
+        "text": "Solutions to the 63rd William Lowell Putnam Mathematical Competition Saturday, December 7, 2002",
+        "text_level": 1,
+        "bbox": [
+            195,
+            62,
+            808,
+            99
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Kiran Kedlaya and Lenny Ng",
+        "bbox": [
+            396,
+            113,
+            608,
+            129
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A-1 By differentiating $P _ { n } ( x ) / ( x ^ { k } - 1 ) ^ { n + 1 }$ , we find that $\\bar { P _ { n + 1 } } ( x ) = ( x ^ { k } - \\bar { 1 } ) P _ { n } ^ { \\prime } ( x ) \\overset { \\cdot \\cdot } { - } ( n + 1 ) k x ^ { k - 1 } P _ { n } ( x )$ ; substituting $x = 1$ yields $P _ { n + 1 } ( 1 ) = - ( n + 1 ) k P _ { n } ( 1 )$ . Since $P _ { 0 } ( 1 ) = 1$ , an easy induction gives $P _ { n } ( 1 ) = ( - k ) ^ { n }$ n! for all $n \\geq 0$",
+        "bbox": [
+            90,
+            163,
+            491,
+            239
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Note: one can also argue by expanding in Taylor series around 1. Namely, we have",
+        "bbox": [
+            123,
+            242,
+            490,
+            272
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1f96fd82632b6f7756c0eefcb4131ea8e09702caaaa6cccf2d1cdb70c54402d0.jpg",
+        "text": "$$\n{ \\frac { 1 } { x ^ { k } - 1 } } = { \\frac { 1 } { k ( x - 1 ) + \\cdots } } = { \\frac { 1 } { k } } ( x - 1 ) ^ { - 1 } + \\cdots ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            139,
+            281,
+            436,
+            314
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "so",
+        "bbox": [
+            124,
+            323,
+            145,
+            335
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/74c24d0d305d51676450098c946a4adc9ad780676698087f902fe6bfda36fd58.jpg",
+        "text": "$$\n{ \\frac { d ^ { n } } { d x ^ { n } } } { \\frac { 1 } { x ^ { k } - 1 } } = { \\frac { ( - 1 ) ^ { n } n ! } { k ( x - 1 ) ^ { - n - 1 } } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            195,
+            344,
+            378,
+            378
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "and",
+        "bbox": [
+            123,
+            388,
+            155,
+            402
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/76f6ea7877611d2b390283d50a5c419d8a1e25201c47011cd4ed8b374fdfea8c.jpg",
+        "text": "$$\n{ \\begin{array} { r l } & { P _ { n } ( x ) = ( x ^ { k } - 1 ) ^ { n + 1 } { \\frac { d ^ { n } } { d x ^ { n } } } { \\frac { 1 } { x ^ { k } - 1 } } } \\\\ & { \\qquad = ( k ( x - 1 ) + \\cdots ) ^ { n + 1 } \\left( { \\frac { ( - 1 ) ^ { n } n ! } { k } } ( x - 1 ) ^ { - n - 1 } + \\cdots \\right) } \\\\ & { \\qquad = ( - k ) ^ { n } n ! + \\cdots . } \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            96,
+            409,
+            476,
+            493
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A-2 Draw a great circle through two of the points. There are two closed hemispheres with this great circle as boundary, and each of the other three points lies in one of them. By the pigeonhole principle, two of those three points lie in the same hemisphere, and that hemisphere thus contains four of the five given points.",
+        "bbox": [
+            90,
+            510,
+            491,
+            600
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Note: by a similar argument, one can prove that among any $n + 3$ points on an n-dimensional sphere, some $n + 2$ of them lie on a closed hemisphere. (One cannot get by with only $n + 2$ points: put them at the vertices of a regular simplex.) Namely, any n of the points lie on a great sphere, which forms the boundary of two hemispheres; of the remaining three points, some two lie in the same hemisphere.",
+        "bbox": [
+            120,
+            603,
+            491,
+            720
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A-3 Note that each of the sets $\\{ 1 \\} , \\{ 2 \\} , \\dots , \\{ n \\}$ has the desired property. Moreover, for each set S with integer average m that does not contain m, $S \\cup \\{ m \\}$ also has average m, while for each set T of more than one element with integer average m that contains m, $T \\setminus \\{ m \\}$ also has average m. Thus the subsets other than $\\{ 1 \\} , \\{ 2 \\} , \\dots , \\{ n \\}$ can be grouped in pairs, so $T _ { n } - n$ is even.",
+        "bbox": [
+            90,
+            727,
+            491,
+            846
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A-4 (partly due to David Savitt) Player 0 wins with optimal play. In fact, we prove that Player 1 cannot prevent Player 0 from creating a row of all zeroes, a column of all zeroes, or a $2 \\times 2$ submatrix of all zeroes. Each of these forces the determinant of the matrix to be zero.",
+        "bbox": [
+            89,
+            853,
+            492,
+            927
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "For $i , j = 1 , 2 , 3 ,$ , let $A _ { i j }$ denote the position in row i and column j. Without loss of generality, we may assume that Player 1’s first move is at $A _ { 1 1 }$ . Player 0 then plays at $A _ { 2 2 } { \\mathrm { : } }$",
+        "bbox": [
+            552,
+            164,
+            920,
+            224
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/240c340348db72dc7e32c9d1ef4e3c946bd56ee95d79d9a80bd7984799272044.jpg",
+        "text": "$$\n\\left( \\begin{array} { l l l } { 1 } & { * } & { * } \\\\ { * } & { 0 } & { * } \\\\ { * } & { * } & { * } \\end{array} \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            680,
+            233,
+            753,
+            281
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "After Player 1's second move, at least one of $A _ { 2 3 }$ and $A _ { 3 2 }$ remains vacant. Without loss of generality, assume A23 remains vacant; Player 0 then plays there.",
+        "bbox": [
+            552,
+            291,
+            920,
+            336
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "After Player 1's third move, Player 0 wins by playing at $A _ { 2 1 }$ if that position is unoccupied. So assume instead that Player 1 has played there. Thus of Player 1's three moves so far, two are at $A _ { 1 1 }$ and $A _ { 2 1 }$ . Hence for i equal to one of 1 or 3, and for j equal to one of 2 or 3, the following are both true:",
+        "bbox": [
+            552,
+            339,
+            921,
+            429
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(a) The $2 \\times 2$ submatrix formed by rows 2 and i and by columns 2 and 3 contains two zeroes and two empty positions.",
+        "bbox": [
+            564,
+            435,
+            920,
+            481
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(b) Column j contains one zero and two empty positions.",
+        "bbox": [
+            563,
+            484,
+            920,
+            515
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Player 0 next plays at $A _ { i j }$ . To prevent a zero column, Player 1 must play in column $j ,$ upon which Player 0 completes the $2 \\times 2$ submatrix in (a) for the win.",
+        "bbox": [
+            553,
+            524,
+            920,
+            569
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Note: one can also solve this problem directly by making a tree of possible play sequences. This tree can be considerably collapsed using symmetries: the symmetry between rows and columns, the invariance of the outcome under reordering of rows or columns, and the fact that the scenario after a sequence of moves does not depend on the order of the moves (sometimes called “transposition invariance\").",
+        "bbox": [
+            552,
+            572,
+            921,
+            690
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Note (due to Paul Cheng): one can reduce Determinant Tic-Tac-Toe to a variant of ordinary tic-tac-toe. Namely, consider a tic-tac-toe grid labeled as follows:",
+        "bbox": [
+            552,
+            693,
+            920,
+            738
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/199ad8f67f910a80791b9c8a33afdc5451c82d4377d0ed71188f2eaf639b2267.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>A11</td><td rowspan=1 colspan=1>A22</td><td rowspan=1 colspan=1>A33</td></tr><tr><td rowspan=1 colspan=1>A23</td><td rowspan=1 colspan=1>A31</td><td rowspan=1 colspan=1>A12</td></tr><tr><td rowspan=1 colspan=1>A32</td><td rowspan=1 colspan=1>A13</td><td rowspan=1 colspan=1>A21</td></tr></table>",
+        "bbox": [
+            665,
+            749,
+            767,
+            801
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Then each term in the expansion of the determinant occurs in a row or column of the grid. Suppose Player 1 first plays in the top left. Player 0 wins by playing first in the top row, and second in the left column. Then there are only one row and column left for Player 1 to threaten, and Player 1 cannot already threaten both on the third move, so Player 0 has time to block both.",
+        "bbox": [
+            552,
+            811,
+            922,
+            915
+        ],
+        "page_idx": 0
+    }
+]

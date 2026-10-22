@@ -1,0 +1,190 @@
+[
+    {
+        "type": "text",
+        "text": "Then we can compute:",
+        "bbox": [
+            170,
+            116,
+            338,
+            132
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4c803bfcf8b44e3f9af1a91ee27c9a13809146610a19a466a2fe5619d036f3cc.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\frac { \\partial \\rho _ { \\phi } ^ { \\mathcal { L } } } { \\partial t } = \\frac { \\partial } { \\partial t } \\int _ { \\mathbb { R } ^ { \\pm \\pm \\pm \\frac { \\rho _ { \\phi } ^ { \\prime } } { 2 } } } \\rho _ { 0 } ^ { \\mathcal { L } } ( \\mathbf { z } _ { 0 } ) \\rho _ { \\phi } ^ { \\mathcal { L } } ( \\mathbf { z } _ { 1 } ) \\mathrm { d } \\mathbf { z } _ { 0 } } \\\\ & { \\quad = \\int _ { \\mathbb { R } ^ { \\pm \\pm \\pm \\frac { \\rho _ { \\phi } ^ { \\prime } } { 2 } } } \\rho _ { 0 } ^ { \\mathcal { L } } ( \\mathbf { z } _ { 1 } ) \\frac { \\partial \\rho _ { \\phi } ^ { \\mathcal { L } } ( \\mathbf { z } _ { 1 } , \\mathbf { \\Sigma } ^ { \\prime } | \\mathbf { z } _ { 0 } ) } { \\partial t } d \\mathbf { z } _ { 0 } } \\\\ & { \\quad = \\int _ { \\mathbb { R } ^ { \\pm \\pm \\pm \\frac { \\rho _ { \\phi } ^ { \\prime } } { 2 } } } \\rho _ { 0 } ^ { \\mathcal { L } } ( \\mathbf { z } _ { 0 } ) ( - \\nabla \\cdot ( \\rho _ { \\phi } ^ { \\mathbb { Z } } ( \\mathbf { z } _ { 1 } ) \\rho _ { \\mathbf { z } } ^ { \\mathcal { L } } ( \\mathbf { z } _ { 0 } ) ) + \\tau \\Delta \\rho _ { \\phi } ^ { \\mathbb { Z } } ( \\mathbf { z } _ { 1 } | \\mathbf { z } _ { 0 } ) ) d \\mathbf { z } _ { 0 } } \\\\ &  \\quad = - \\nabla \\cdot ( \\int _ { \\mathbb { R } ^ { \\pm \\pm \\frac { \\rho _ { \\phi } ^ { \\prime } } { 2 } } } \\rho _ { 0 } ^ { \\mathcal { L } } ( \\mathbf { z } _ { 0 } ) \\rho _ { \\phi } ^ { \\mathcal { L } } ( \\mathbf { z } _ { 1 } ) \\mathrm { d } \\mathbf { z } _ { 0 } \\mathrm { b } ^ { \\mathcal { L } } ( \\mathbf { z } _ { 1 } ) \\mathrm { d } \\mathbf { z } _ { 0 } ) + \\tau \\Delta ( \\int _  \\mathbb { R } ^  \\pm \\frac   \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            165,
+            142,
+            831,
+            385
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "as desired.",
+        "bbox": [
+            141,
+            398,
+            222,
+            412
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "F.2. One-Step Recurrence for the Biased Convergence of the Finite-Particle Algorithm",
+        "text_level": 2,
+        "bbox": [
+            141,
+            446,
+            805,
+            463
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "F.2.1. ONE-STEP RECURRENCE IN $W _ { 2 }$ DISTANCE",
+        "text_level": 2,
+        "bbox": [
+            142,
+            471,
+            519,
+            486
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Lemma 22 Assume Assumption 1. Let $\\mathbf { z } _ { k } \\sim \\rho _ { k } ^ { \\mathbf { z } , \\eta }$ for any $\\rho _ { k } ^ { \\mathbf { z } , \\eta } \\in \\mathcal { P } ( \\mathbb { R } ^ { 2 d N } )$ , and let $\\mathbf { z } _ { k + 1 } \\sim \\rho _ { k + 1 } ^ { \\mathbf { z } , \\eta }$ 1 be one step of the fnite-particle algorithm (20) with step size $\\begin{array} { r } { 0 < \\eta \\le \\frac { \\alpha } { 6 4 L ^ { 2 } } } \\end{array}$ . Then:",
+        "bbox": [
+            141,
+            493,
+            851,
+            530
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ce58e9e155a5d514770cc85cf9fdb2025113a16b13d60e499ccce040a953b0bb.jpg",
+        "text": "$$\nW _ { 2 } ( \\rho _ { k + 1 } ^ { \\mathbf { z } , \\eta } , \\bar { \\nu } ^ { \\mathbf { Z } } ) ^ { 2 } \\leq e ^ { - \\frac { 3 } { 2 } \\alpha \\eta } W _ { 2 } ( \\rho _ { k } ^ { \\mathbf { z } , \\eta } , \\bar { \\nu } ^ { \\mathbf { Z } } ) ^ { 2 } + \\frac { 8 \\eta L ^ { 2 } } { \\alpha } \\left( \\mathsf { V a r } _ { \\bar { \\nu } ^ { \\mathbf { Z } } } ( \\bar { Z } ) + 6 4 \\tau \\eta d N \\right) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            228,
+            541,
+            767,
+            575
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Proof We consider a continuous-time interpolation of one step of the algorithm (20) as follows. Let ${ \\bf Z } _ { 0 } \\sim \\rho _ { 0 } ^ { \\bf Z }$ where we define $\\rho _ { 0 } ^ { \\mathbf { Z } } = \\rho _ { k } ^ { \\mathbf { z } , \\eta }$ . We define $( \\mathbf { Z } _ { t } ) _ { 0 \\leq t \\leq \\eta }$ where $\\mathbf { Z } _ { t } \\sim \\rho _ { t } ^ { \\mathbf { Z } }$ evolves following:",
+        "bbox": [
+            141,
+            585,
+            854,
+            620
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6c8405a6ae57b16a8f3247f36c07f0f6fb04965c570339de2f29a191843d9af7.jpg",
+        "text": "$$\nd \\mathbf { Z } _ { t } = b ^ { \\mathbf { Z } } ( \\mathbf { Z } _ { 0 } ) d t + \\sqrt { 2 \\tau } d W _ { t } ^ { \\mathbf { Z } }\\tag{49}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            385,
+            630,
+            612,
+            650
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "where $( W _ { t } ^ { \\mathbf { Z } } ) _ { t \\geq 0 }$ is the standard Brownian motion in $ { \\mathbb { R } } ^ { 2 d N }$ which is independent of $\\mathbf { Z } _ { 0 }$ . Then we notice that the distribution of $\\mathbf { Z } _ { \\eta } \\sim \\rho _ { \\eta } ^ { \\mathbf { Z } }$ of the process (49) is equal to the distribution of the next iterate $\\mathbf { x } _ { k + 1 } \\sim \\rho _ { k + 1 } ^ { \\mathbf { z } , \\eta }$ along the algorithm (20), i.e., $\\rho _ { k + 1 } ^ { \\mathbf { z } , \\eta } = \\rho _ { \\eta } ^ { \\mathbf { Z } }$ . This is because the solution to the process (49) at time $t = \\eta$ is:",
+        "bbox": [
+            141,
+            663,
+            854,
+            733
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/700b4b5f90ff4987b80fddc0ecf649da0fc67027a280a2029b89ddeb6640312f.jpg",
+        "text": "$$\n\\mathbf { Z } _ { t } = \\mathbf { Z } _ { 0 } + t b ^ { \\mathbf { Z } } ( \\mathbf { Z } _ { 0 } ) + { \\sqrt { 2 \\tau } } W _ { t } ^ { \\mathbf { Z } } \\ { \\stackrel { d } { = } } \\ \\mathbf { Z } _ { 0 } + t b ^ { \\mathbf { Z } } ( \\mathbf { Z } _ { 0 } ) + { \\sqrt { 2 \\tau t } } \\zeta\n$$",
+        "text_format": "latex",
+        "bbox": [
+            276,
+            746,
+            720,
+            766
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "where $\\zeta \\sim \\mathcal { N } ( 0 , I )$ is an independent Gaussian random variable in $\\mathbb { R } ^ { 2 d N }$ , and ª means equality in $\\underline { { \\underline { { d } } } }$ distribution. This is the same update of the algorithm (20), so indeed $\\mathbf { Z } _ { \\eta } \\triangleq \\mathbf { z } _ { k + 1 } , \\operatorname { s o } \\rho _ { \\eta } ^ { \\mathbf { Z } } = \\rho _ { k + 1 } ^ { \\mathbf { z } , \\eta }$",
+        "bbox": [
+            141,
+            781,
+            852,
+            822
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "We also consider $( \\bar { \\mathbf Z } _ { t } ) _ { 0 \\leq t \\leq \\eta }$ where $\\bar { \\mathbf Z } _ { t } \\sim \\bar { \\rho } _ { t } ^ { \\mathbf Z } = \\bar { \\nu } ^ { \\mathbf Z }$ evolves following the stationary tensorized mean-field dynamics (16):",
+        "bbox": [
+            141,
+            822,
+            854,
+            856
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4e81cd94df5cbbbd8cf9254e6c8ff09299f3dd0661a4cb5a0e4dbeca8d1ba4e4.jpg",
+        "text": "$$\nd \\bar { \\mathbf Z } _ { t } = \\bar { b } ^ { \\mathbf Z } ( \\bar { \\mathbf Z } _ { t } ) d t + \\sqrt { 2 \\tau } d W _ { t } ^ { \\mathbf Z }\\tag{50}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            385,
+            866,
+            611,
+            886
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "ON THE CONVERGENCE OF MIN-MAX LANGEVIN DYNAMICS AND ALGORITHM",
+        "bbox": [
+            218,
+            49,
+            775,
+            63
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "49",
+        "bbox": [
+            489,
+            914,
+            509,
+            926
+        ],
+        "page_idx": 0
+    }
+]
