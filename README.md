@@ -73,6 +73,7 @@ frontend/src/                 # React + Vite + TypeScript
 docs/
   CONTEXTO.md                 # fuente normativa del proyecto
   alcance.md                  # qué cubre TT I y qué queda para TT II
+  notas/figuras_p2.py         # nota histórica: figuras del Prototipo 2, no ejecutable como parte del sistema
 samples/2027-A038.pdf         # documento de ejemplo
 ```
 
